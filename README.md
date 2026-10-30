@@ -142,9 +142,8 @@ git commit -m "Αριθμός Μητρώου και όνομα του Challenge"
 
 # Αποστολή των αλλαγών στο fork σας στο GitHub
 git push
-
+```
 Θα σας ζητήσει username και κωδικό. Για username θα πάτε στο github πάνω δεξιά, settings και έπειτα στο μενού αριστερά Developer Options.
 Έπειτα Personal access tokens -> Tokens Classic - Generate New Token. Έπειτα επιλέγετε τα permissions (επιλέξτε αρκετά, ειδικά αυτά που είναι για push) και έπειτα το token μπορεί να 
-```
 
 Έπειτα θα έχω τη δυνατότητα να δω το fork σας καθώς θα έχετε κάνει pull request (από το Github πράσινο κουμπί pull request). Πάντα τοποθετείτε το ΑΜ και το όνομα του Challenge.
