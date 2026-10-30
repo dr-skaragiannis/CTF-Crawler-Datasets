@@ -1,0 +1,20 @@
+Linux Raven 3.16.0-6-amd64 #1 SMP Debian 3.16.57-2 (2018-07-14) x86_64 GNU/Linux
+
+PRETTY_NAME="Debian GNU/Linux 8 (jessie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="8"
+VERSION="8 (jessie)"
+ID=debian
+HOME_URL="http://www.debian.org/"
+SUPPORT_URL="http://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+   Static hostname: Raven
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 28024023a7ec405f9c2a4688c222020f
+           Boot ID: 706a56a90d7e4be1ac2afaffb2d1b27d
+    Virtualization: kvm
+  Operating System: Debian GNU/Linux 8 (jessie)
+            Kernel: Linux 3.16.0-6-amd64
+      Architecture: x86-64

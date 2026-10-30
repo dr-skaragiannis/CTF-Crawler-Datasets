@@ -1,0 +1,5 @@
+[2026-10-30 11:16:16 -0400] session started: challenge=Raven target=10.0.2.47
+[2026-10-30 11:16:16 -0400] session folder: /home/kali/CTF-Logs/Raven/2026-10-30_11-16-16
+[2026-10-30 11:16:16 -0400] capturing eth0 -> eth0.pcap
+[2026-10-30 11:16:16 -0400] capturing lo -> lo.pcap
+[2026-10-30 11:16:16 -0400] capturing any [host 10.0.2.47] -> target_10.0.2.47.pcap

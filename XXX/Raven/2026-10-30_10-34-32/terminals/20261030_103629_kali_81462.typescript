@@ -1,0 +1,77 @@
+Script started on 2026-10-30 10:36:29-04:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="128" LINES="35"]
+                                                                                                                                ]0;kali@kali: ~/CTF-Crawler[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Crawler[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hn[4mn[24m[4mn[4mm[24m[24m[36mn[24m[36mm[39m[36mn[36mm[36ma[39m[39m[4mn[39m[4mm[39m[4ma[24m[4ma[4mp[24m[24m[36mn[24m[36mm[24m[36ma[24m[36mp[39m[?1l>[?2004l
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-10-30 10:36 -0400
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.03 seconds
+                                                                                                                                ]0;kali@kali: ~/CTF-Crawler
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Crawler[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hnmap[36mn[36mm[36ma[36mp[39m[36mp[36m [39m[36mp[39m[39m localhost[?1l>[?2004l
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-10-30 10:37 -0400
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000014s latency).
+Other addresses for localhost (not scanned): ::1
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.19 seconds
+                                                                                                                                ]0;kali@kali: ~/CTF-Crawler
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Crawler[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[4md[24m[24m[36mc[24m[36md[39m[36mc[36md[36m [39m[36mc[36md[39m[39m [36mc[39m[39m [39m[4mc[24m[24m l[36ml[39m[36ml[36ms[39m[?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Crawler
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Crawler[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[4md[24m[24m[36mc[24m[36md[39m[36mc[36md[36m [39m[36mc[36md[39m[39m [36mc[39m[39m [39m[4mc[24m[24m l[36ml[39m[36ml[39m[38;5;244ms[39m[36ml[36ms[39m[?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Crawler
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Crawler[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[4md[24m[24m[36mc[24m[36md[39m[36mc[36md[36m [39m[36mc[36md[39m[39m /home/kali/CTF-Logs/Raven/[26D[1m/[1mh[1mo[1mm[1me[1m/[1mk[1ma[1ml[1mi[1m/[1mC[1mT[1mF[1m-[1mL[1mo[1mg[1ms[1m/[1mR[1ma[1mv[1me[1mn[1m/[0m[?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;5;244ms[39m[36ml[36ms[39m[?1l>[?2004l
+[0m[01;34m2026-10-30_10-34-32[0m  [01;34mvictim_10.0.2.47_2026-10-30_10-40-09[0m  [01;34mvictim_10.0.2.47_2026-10-30_10-48-09[0m
+[01;34m2026-10-30_11-16-16[0m  [01;34mvictim_10.0.2.47_2026-10-30_10-41-45[0m
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[38;5;244md /home/kali/CTF-Logs/Raven/[39m[28D[4mc[39m[4md[24m[24m[36mc[24m[36md[39m[36mc[36md[36m [39m[36mc[36md[39m[39m [39m2[39m0[39m2[39m6[39m-[39m1[39m0[39m-[39m3[39m0[39m_[39m1[39m1[39m-[39m1[39m6[39m-[39m1[39m6[39m [39m [39m [39m [39m [39m [39m [19D[1m2[1m0[1m2[1m6[1m-[1m1[1m0[1m-[1m3[1m0[1m_[1m1[1m1[1m-[1m1[1m6[1m-[1m1[1m6[0m[?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;5;244ms[39m[36ml[36ms[39m[?1l>[?2004l
+commands.log  events.log  [0m[01;34mpcap[0m  session_info.txt  tcpdump.log  [30;42mterminals[0m
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[38;5;244md 2026-10-30_11-16-16[39m[21D[4mc[39m[4ma[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[4mc[4ma[4mt[24m[24m[36mc[24m[36ma[24m[36mt[39m[36mt[36m [39m[36mt[39m[39m t[1mt[0m[1mt[1me[0m[1me[1mrminals/[0m[1ms[0m[0m [?1l>[?2004l
+cat: terminals: Is a directory
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[38;5;244mat terminals[39m[12D[4mc[39m[4md[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[24m[36mc[24m[36md[39m[38;5;244m 2026-10-30_11-16-16[39m[20D[36mc[36md[36m [39m[36mc[36md[39m[39m [39mt[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[1mt[0m[1mt[1me[0m[1me[1mrminals/[0m[1ms[0m[0m [?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;5;244ms[39m[36ml[36ms[39m[?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;5;244ms[39m[36ml[36ms[39m[36ml[36ms[36m [39m[36ml[36ms[39m[39m -[32m-[39m[32m-[32ml[39m[?1l>[?2004l
+total 0
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[38;5;244md terminals[39m[11D[4mc[39m[4md[24m[24m[36mc[24m[36md[39m[36mc[36md[36m [39m[36mc[36md[39m[39m [39m.[39m [39m [39m [39m [39m [39m [39m [39m [8D[1m.[0m[1m.[1m.[0m[?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;5;244ms -l[39m[36ml[36ms[39m[39m [39m [39m [?1l>[?2004l
+commands.log  events.log  [0m[01;34mpcap[0m  session_info.txt  tcpdump.log  [30;42mterminals[0m
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hs[4ms[24m[?1l>[?2004l
+s: command not found
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;5;244ms[39m[36ml[36ms[39m[?1l>[?2004l
+commands.log  events.log  [0m[01;34mpcap[0m  session_info.txt  tcpdump.log  [30;42mterminals[0m
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hc[4mc[24m[4mc[24m[38;5;244md ..[39m[4mc[39m[4md[24m[24m[36mc[24m[36md[39m[36mc[36md[36m [39m[36mc[36md[39m[39m [39mt[39m [1mt[0m[38;5;244merminals[39m[8D[1mt[39m[1me[0m[1me[39m[1mr[39m[1mm[39m[1mi[39m[1mn[39m[1ma[39m[1ml[39m[1ms[1m/[0m[1ms[0m[0m [?1l>[?2004l
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;5;244ms[39m[36ml[36ms[39m[?1l>[?2004l
+20261030_111653_kali_92283.timing  20261030_111653_kali_92283.typescript
+                                                                                                                                ]0;kali@kali: ~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/CTF-Logs/Raven/2026-10-30_11-16-16/terminals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h

@@ -1,0 +1,95 @@
+# time	user@host	terminal	cwd	exit	command
+2026-10-30 10:35:00	kali@kali	20261030_103500_kali_80335	/home/kali	0	cd /home/kali/
+2026-10-30 10:35:01	kali@kali	20261030_103500_kali_80335	/home/kali	0	ls
+2026-10-30 10:35:02	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs	0	cd CTF-Logs
+2026-10-30 10:35:03	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs	0	ls
+2026-10-30 10:35:03	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven	0	cd Raven
+2026-10-30 10:35:04	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven	0	ls
+2026-10-30 10:35:05	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cd 2026-10-30_10-34-32
+2026-10-30 10:35:05	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:35:07	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cat commands.log
+2026-10-30 10:35:08	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cat events.log
+2026-10-30 10:35:10	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cat session_info.txt
+2026-10-30 10:35:12	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:35:13	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:35:15	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cat tcpdump.log
+2026-10-30 10:35:15	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	1	cat terminals
+2026-10-30 10:35:16	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cd terminals
+2026-10-30 10:35:17	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:35:21	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103500_kali_80335.typescript
+2026-10-30 10:35:23	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103500_kali_80335.timing
+2026-10-30 10:35:26	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:35:27	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cd ..
+2026-10-30 10:35:27	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:35:28	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cat commands.log
+2026-10-30 10:35:33	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:35:36	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cat events.log
+2026-10-30 10:35:43	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cat session_info.txt
+2026-10-30 10:35:49	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:35:51	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	cd pcap
+2026-10-30 10:35:51	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls
+2026-10-30 10:35:54	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	cat eth0.pcap
+2026-10-30 10:35:56	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls
+2026-10-30 10:35:56	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cd ..
+2026-10-30 10:35:57	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:35:59	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	cd pcap
+2026-10-30 10:35:59	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls
+2026-10-30 10:36:00	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls -l
+2026-10-30 10:36:00	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls -l
+2026-10-30 10:36:01	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls -l
+2026-10-30 10:36:01	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls -l
+2026-10-30 10:36:01	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls -l
+2026-10-30 10:36:02	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls -l
+2026-10-30 10:36:06	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ping google.com
+2026-10-30 10:36:07	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls -l
+2026-10-30 10:36:24	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/pcap	0	ls
+2026-10-30 10:36:25	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	cd ..
+2026-10-30 10:36:25	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32	0	ls
+2026-10-30 10:36:27	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cd terminals
+2026-10-30 10:36:28	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:36:30	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Crawler	0	nmap
+2026-10-30 10:36:32	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:36:36	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls -l
+2026-10-30 10:36:42	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls -l
+2026-10-30 10:36:44	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103500_kali_80335.timing
+2026-10-30 10:36:46	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:36:47	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:36:50	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:36:55	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:36:56	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:36:57	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	clear
+2026-10-30 10:36:58	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:37:04	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Crawler	0	nmap localhost
+2026-10-30 10:37:05	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:37:08	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:37:08	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:37:09	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls -l
+2026-10-30 10:37:14	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	130	cat 20261030_103500_kali_80335.typescript
+2026-10-30 10:37:15	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:37:20	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	130	cat 20261030_103500_kali_80335.typescript
+2026-10-30 10:37:22	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	127	s
+2026-10-30 10:37:24	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:37:32	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 10:37:34	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat 20261030_103629_kali_81462.typescript
+2026-10-30 10:37:42	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	130	cat 20261030_103500_kali_80335.typescript
+2026-10-30 10:37:50	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	clear
+2026-10-30 11:16:21	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	nmap localhost
+2026-10-30 11:16:24	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Crawler	0	ls
+2026-10-30 11:16:26	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Crawler	0	ls
+2026-10-30 11:16:32	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven	0	cd /home/kali/CTF-Logs/Raven/
+2026-10-30 11:16:33	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven	0	ls
+2026-10-30 11:16:41	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16	0	cd 2026-10-30_11-16-16
+2026-10-30 11:16:41	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16	0	ls
+2026-10-30 11:16:44	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16	1	cat terminals
+2026-10-30 11:16:46	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16/terminals	0	cd terminals
+2026-10-30 11:16:46	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16/terminals	0	ls
+2026-10-30 11:16:47	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16/terminals	0	ls -l
+2026-10-30 11:16:48	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16	0	cd ..
+2026-10-30 11:16:48	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16	0	ls
+2026-10-30 11:17:02	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	ls
+2026-10-30 11:17:14	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat /home/kali/CTF-Logs/Raven/2026-10-30_11-16-16/terminals/20261030_111653_kali_92283.typescript
+2026-10-30 11:17:40	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16	127	s
+2026-10-30 11:17:41	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16	0	ls
+2026-10-30 11:17:43	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16/terminals	0	cd terminals
+2026-10-30 11:17:43	kali@kali	20261030_103629_kali_81462	/home/kali/CTF-Logs/Raven/2026-10-30_11-16-16/terminals	0	ls
+2026-10-30 11:17:46	kali@kali	20261030_103500_kali_80335	/home/kali/CTF-Logs/Raven/2026-10-30_10-34-32/terminals	0	cat /home/kali/CTF-Logs/Raven/2026-10-30_11-16-16/terminals/20261030_111653_kali_92283.typescript

@@ -1,0 +1,81 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         2  0.0  0.0      0     0 ?        S    03:48   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [kworker/u2:0]
+root         7  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [migration/0]
+root        10  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [khelper]
+root        12  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [kdevtmpfs]
+root        13  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [netns]
+root        14  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [writeback]
+root        16  0.0  0.0      0     0 ?        SN   03:48   0:00  \_ [ksmd]
+root        17  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [crypto]
+root        18  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [kintegrityd]
+root        19  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [bioset]
+root        20  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [kblockd]
+root        22  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [kswapd0]
+root        23  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [vmstat]
+root        24  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [fsnotify_mark]
+root        30  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [kthrotld]
+root        31  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [ipv6_addrconf]
+root        32  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [deferwq]
+root        66  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [khubd]
+root        67  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [ata_sff]
+root        68  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [kpsmoused]
+root        71  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [kworker/0:2]
+root        72  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [mpt_poll_0]
+root        73  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [mpt/0]
+root        74  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [scsi_eh_0]
+root        75  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [scsi_tmf_0]
+root        76  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [scsi_eh_1]
+root        77  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [kworker/u2:2]
+root        78  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [scsi_tmf_1]
+root        79  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [scsi_eh_2]
+root        80  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [scsi_tmf_2]
+root        85  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [kworker/0:1H]
+root       105  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [jbd2/sda1-8]
+root       106  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [ext4-rsv-conver]
+root       136  0.0  0.0      0     0 ?        S    03:48   0:00  \_ [kauditd]
+root       394  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [rpciod]
+root       401  0.0  0.0      0     0 ?        S<   03:48   0:00  \_ [nfsiod]
+root      1178  0.0  0.0      0     0 ?        S    04:03   0:00  \_ [kworker/0:0]
+root         1  0.0  0.8  28564  4544 ?        Ss   03:48   0:00 /sbin/init
+root       138  0.0  0.6  28876  3156 ?        Ss   03:48   0:00 /lib/systemd/systemd-journald
+root       148  0.0  0.6  40824  3232 ?        Ss   03:48   0:00 /lib/systemd/systemd-udevd
+root       374  0.0  0.5  37084  2700 ?        Ss   03:48   0:00 /sbin/rpcbind -w
+statd      384  0.0  0.5  37284  2892 ?        Ss   03:48   0:00 /sbin/rpc.statd
+root       410  0.0  1.7  25404  8924 ?        Ss   03:48   0:00 dhclient -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       426  0.0  0.0  23360   204 ?        Ss   03:48   0:00 /usr/sbin/rpc.idmapd
+root       427  0.0  0.5  27508  2820 ?        Ss   03:48   0:00 /usr/sbin/cron -f
+daemon     429  0.0  0.3  19028  1672 ?        Ss   03:48   0:00 /usr/sbin/atd -f
+root       431  0.0  0.5  19860  2536 ?        Ss   03:48   0:00 /lib/systemd/systemd-logind
+message+   438  0.0  0.6  42128  3384 ?        Ss   03:48   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       440  0.0  0.4  14240  2300 ?        S    03:48   0:00 /sbin/getty -L ttyS0 115200 vt220
+root       474  0.0  0.6 258676  3328 ?        Ssl  03:48   0:00 /usr/sbin/rsyslogd -n
+root       476  0.0  0.3   4260  1676 ?        Ss   03:48   0:00 /usr/sbin/acpid
+root       482  0.0  1.0  55192  5300 ?        Ss   03:48   0:00 /usr/sbin/sshd -D
+root      1165  0.0  1.1  82600  5908 ?        Ss   04:00   0:00  \_ sshd: bloodraven [priv]
+bloodra+  1167  0.0  0.7  82600  3992 ?        S    04:00   0:00  |   \_ sshd: bloodraven@pts/0
+bloodra+  1168  0.0  0.9  23192  4992 pts/0    Ss+  04:00   0:00  |       \_ -bash
+root      1175  0.0  0.6  40548  3436 pts/0    T    04:01   0:00  |           \_ sudo root
+root      1196  0.0  1.1  82600  5888 ?        Ss   04:08   0:00  \_ sshd: bloodraven [priv]
+bloodra+  1198  0.0  0.8  82740  4420 ?        S    04:08   0:00      \_ sshd: bloodraven@notty
+root      1332  0.0  0.7  40756  3672 ?        Ss   04:09   0:00          \_ sudo -S -k -p  sh -c ps auxwwf
+root      1333  0.0  0.1   4340   744 ?        S    04:09   0:00              \_ sh -c ps auxwwf
+root      1334  0.0  0.5  19268  2736 ?        R    04:09   0:00                  \_ ps auxwwf
+root       491  0.0  0.3  14420  1964 tty1     Ss+  03:48   0:00 /sbin/agetty --noclear tty1 linux
+root       534  0.0  1.0  78092  5104 ?        Ss   03:48   0:00 sendmail: MTA: accepting connections          
+root       552  0.0  0.3   4340  1640 ?        S    03:48   0:00 /bin/sh /usr/bin/mysqld_safe
+root       916  0.0  9.9 551992 50576 ?        Sl   03:48   0:00  \_ /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/mysql/plugin --user=root --log-error=/var/log/mysql/error.log --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/run/mysqld/mysqld.sock --port=3306
+root       562  0.0  4.5 232508 22876 ?        Ss   03:48   0:00 /usr/sbin/apache2 -k start
+www-data   670  0.0  1.5 232532  7672 ?        S    03:48   0:00  \_ /usr/sbin/apache2 -k start
+www-data   671  0.0  1.5 232532  7672 ?        S    03:48   0:00  \_ /usr/sbin/apache2 -k start
+www-data   672  0.0  1.5 232532  7672 ?        S    03:48   0:00  \_ /usr/sbin/apache2 -k start
+www-data   675  0.0  1.5 232532  7672 ?        S    03:48   0:00  \_ /usr/sbin/apache2 -k start
+www-data   676  0.0  1.5 232532  7672 ?        S    03:48   0:00  \_ /usr/sbin/apache2 -k start
+root      1261  0.0  0.4  13408  2084 ?        Ss   04:09   0:00 /lib/systemd/systemd-hostnamed
+root      1269  0.0  0.4  13412  2116 ?        Ss   04:09   0:00 /lib/systemd/systemd-timedated

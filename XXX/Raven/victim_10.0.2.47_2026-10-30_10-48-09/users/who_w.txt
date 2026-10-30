@@ -1,0 +1,9 @@
+           system boot  2026-10-31 03:48
+LOGIN      ttyS0        2026-10-31 03:48               440 id=tyS0
+           run-level 5  2026-10-31 03:48
+LOGIN      tty1         2026-10-31 03:48               491 id=tty1
+bloodraven + pts/0        2026-10-31 04:00 00:08        1165 (10.0.2.50)
+
+ 04:09:07 up 20 min,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+bloodrav pts/0    10.0.2.50        04:00    8:08   0.01s  0.01s -bash

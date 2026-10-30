@@ -1,0 +1,10 @@
+# time	user@host	terminal	cwd	exit	command
+2026-10-30 11:16:57	kali@kali	20261030_111653_kali_92283	/home/kali	0	nmap localhost
+2026-10-30 11:17:27	kali@kali	20261030_111653_kali_92283	/home/kali	1	arp-scan -l
+2026-10-30 11:17:32	kali@kali	20261030_111653_kali_92283	/home/kali	130	sudo arp-scan -l
+2026-10-30 11:17:35	kali@kali	20261030_111653_kali_92283	/home/kali	0	nmap 10.0.2.47
+2026-10-30 11:42:38	kali@kali	20261030_114227_kali_105027	/home/kali/CTF-Crawler	0	git clone https://github.com/IonianDTwin/CTF-Crawler-Datasets
+2026-10-30 11:42:53	kali@kali	20261030_114227_kali_105027	/home/kali/CTF-Crawler/CTF-Crawler-Datasets	0	cd CTF-Crawler-Datasets
+2026-10-30 11:42:53	kali@kali	20261030_114227_kali_105027	/home/kali/CTF-Crawler/CTF-Crawler-Datasets	0	ls
+2026-10-30 11:42:57	kali@kali	20261030_114227_kali_105027	/home/kali/CTF-Crawler/CTF-Crawler-Datasets	0	mkdir XXX
+2026-10-30 11:42:58	kali@kali	20261030_114227_kali_105027	/home/kali/CTF-Crawler/CTF-Crawler-Datasets/XXX	0	cd XXX

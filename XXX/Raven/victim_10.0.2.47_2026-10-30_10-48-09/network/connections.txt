@@ -1,0 +1,15 @@
+State      Recv-Q Send-Q        Local Address:Port          Peer Address:Port 
+LISTEN     0      128                       *:56325                    *:*      users:(("rpc.statd",pid=384,fd=9))
+LISTEN     0      50                127.0.0.1:3306                     *:*      users:(("mysqld",pid=916,fd=10))
+LISTEN     0      10                127.0.0.1:587                      *:*      users:(("sendmail-mta",pid=534,fd=5))
+LISTEN     0      128                       *:111                      *:*      users:(("rpcbind",pid=374,fd=8))
+LISTEN     0      128                       *:22                       *:*      users:(("sshd",pid=482,fd=3))
+LISTEN     0      10                127.0.0.1:25                       *:*      users:(("sendmail-mta",pid=534,fd=3))
+ESTAB      0      0                 10.0.2.47:22               10.0.2.50:60154  users:(("sshd",pid=1167,fd=3),("sshd",pid=1165,fd=3))
+ESTAB      0      116               10.0.2.47:22               10.0.2.50:48304  users:(("sshd",pid=1198,fd=3),("sshd",pid=1196,fd=3))
+LISTEN     0      128                      :::111                     :::*      users:(("rpcbind",pid=374,fd=11))
+LISTEN     0      128                      :::80                      :::*      users:(("apache2",pid=676,fd=4),("apache2",pid=675,fd=4),("apache2",pid=672,fd=4),("apache2",pid=671,fd=4),("apache2",pid=670,fd=4),("apache2",pid=562,fd=4))
+LISTEN     0      128                      :::22                      :::*      users:(("sshd",pid=482,fd=4))
+LISTEN     0      128                      :::44857                   :::*      users:(("rpc.statd",pid=384,fd=11))
+TIME-WAIT  0      0          ::ffff:127.0.0.1:40269     ::ffff:127.0.0.1:25    
+TIME-WAIT  0      0          ::ffff:127.0.0.1:40270     ::ffff:127.0.0.1:25    

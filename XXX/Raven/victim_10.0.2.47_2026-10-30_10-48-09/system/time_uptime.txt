@@ -1,0 +1,18 @@
+Saturday 31 October  04:09:07 AEDT 2026
+Friday 30 October  17:09:07 UTC 2026
+ 04:09:07 up 20 min,  1 user,  load average: 0.00, 0.00, 0.00
+1245.24 1241.46
+      Local time: Sat 2026-10-31 04:09:07 AEDT
+  Universal time: Fri 2026-10-30 17:09:07 UTC
+        RTC time: Fri 2026-10-30 17:09:07
+       Time zone: Australia/Canberra (AEDT, +1100)
+     NTP enabled: no
+NTP synchronized: no
+ RTC in local TZ: no
+      DST active: yes
+ Last DST change: DST began at
+                  Sun 2026-10-04 01:59:59 AEST
+                  Sun 2026-10-04 03:00:00 AEDT
+ Next DST change: DST ends (the clock jumps one hour backwards) at
+                  Sun 2027-04-04 02:59:59 AEDT
+                  Sun 2027-04-04 02:00:00 AEST

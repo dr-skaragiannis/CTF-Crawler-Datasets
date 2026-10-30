@@ -1,0 +1,376 @@
+  UNIT                                                                                LOAD      ACTIVE   SUB       
+  proc-sys-fs-binfmt_misc.automount                                                   loaded    active   waiting   Arbitrary Executable File Formats File System Automount Point
+  dev-disk-by\x2did-scsi\x2d5.device                                                  loaded    active   plugged   HARDDISK
+  dev-disk-by\x2did-scsi\x2d5\x2dpart1.device                                         loaded    active   plugged   HARDDISK 1
+  dev-disk-by\x2did-scsi\x2d5\x2dpart2.device                                         loaded    active   plugged   HARDDISK 2
+  dev-disk-by\x2did-scsi\x2d5\x2dpart5.device                                         loaded    active   plugged   HARDDISK 5
+  dev-disk-by\x2dpath-pci\x2d0000:00:14.0\x2dscsi\x2d0:0:0:0.device                   loaded    active   plugged   HARDDISK
+  dev-disk-by\x2dpath-pci\x2d0000:00:14.0\x2dscsi\x2d0:0:0:0\x2dpart1.device          loaded    active   plugged   HARDDISK 1
+  dev-disk-by\x2dpath-pci\x2d0000:00:14.0\x2dscsi\x2d0:0:0:0\x2dpart2.device          loaded    active   plugged   HARDDISK 2
+  dev-disk-by\x2dpath-pci\x2d0000:00:14.0\x2dscsi\x2d0:0:0:0\x2dpart5.device          loaded    active   plugged   HARDDISK 5
+  dev-disk-by\x2duuid-a32142f4\x2d45e8\x2d400e\x2dbaf5\x2d5acb5fea65f5.device         loaded    active   plugged   HARDDISK 5
+  dev-disk-by\x2duuid-ec19ac44\x2d03d3\x2d467b\x2db1c4\x2d92a2749f99e2.device         loaded    active   plugged   HARDDISK 1
+  dev-sda.device                                                                      loaded    active   plugged   HARDDISK
+  dev-sda1.device                                                                     loaded    active   plugged   HARDDISK 1
+  dev-sda2.device                                                                     loaded    active   plugged   HARDDISK 2
+  dev-sda5.device                                                                     loaded    active   plugged   HARDDISK 5
+  dev-ttyS0.device                                                                    loaded    active   plugged   /dev/ttyS0
+  dev-ttyS1.device                                                                    loaded    active   plugged   /dev/ttyS1
+  dev-ttyS2.device                                                                    loaded    active   plugged   /dev/ttyS2
+  dev-ttyS3.device                                                                    loaded    active   plugged   /dev/ttyS3
+  sys-devices-pci0000:00-0000:00:05.0-sound-card0.device                              loaded    active   plugged   82801AA AC'97 Audio Controller
+  sys-devices-pci0000:00-0000:00:11.0-net-eth0.device                                 loaded    active   plugged   82545EM Gigabit Ethernet Controller (Copper) (PRO/1000 MT Single Port Adapter)
+  sys-devices-pci0000:00-0000:00:14.0-host0-target0:0:0-0:0:0:0-block-sda-sda1.device loaded    active   plugged   HARDDISK 1
+  sys-devices-pci0000:00-0000:00:14.0-host0-target0:0:0-0:0:0:0-block-sda-sda2.device loaded    active   plugged   HARDDISK 2
+  sys-devices-pci0000:00-0000:00:14.0-host0-target0:0:0-0:0:0:0-block-sda-sda5.device loaded    active   plugged   HARDDISK 5
+  sys-devices-pci0000:00-0000:00:14.0-host0-target0:0:0-0:0:0:0-block-sda.device      loaded    active   plugged   HARDDISK
+  sys-devices-platform-serial8250-tty-ttyS1.device                                    loaded    active   plugged   /sys/devices/platform/serial8250/tty/ttyS1
+  sys-devices-platform-serial8250-tty-ttyS2.device                                    loaded    active   plugged   /sys/devices/platform/serial8250/tty/ttyS2
+  sys-devices-platform-serial8250-tty-ttyS3.device                                    loaded    active   plugged   /sys/devices/platform/serial8250/tty/ttyS3
+  sys-devices-pnp0-00:02-tty-ttyS0.device                                             loaded    active   plugged   /sys/devices/pnp0/00:02/tty/ttyS0
+  sys-subsystem-net-devices-eth0.device                                               loaded    active   plugged   82545EM Gigabit Ethernet Controller (Copper) (PRO/1000 MT Single Port Adapter)
+  -.mount                                                                             loaded    active   mounted   /
+  dev-hugepages.mount                                                                 loaded    active   mounted   Huge Pages File System
+  dev-mqueue.mount                                                                    loaded    active   mounted   POSIX Message Queue File System
+  proc-sys-fs-binfmt_misc.mount                                                       loaded    inactive dead      Arbitrary Executable File Formats File System
+  run-rpc_pipefs.mount                                                                loaded    active   mounted   /run/rpc_pipefs
+  sys-fs-fuse-connections.mount                                                       loaded    inactive dead      FUSE Control File System
+  sys-kernel-config.mount                                                             loaded    inactive dead      Configuration File System
+  sys-kernel-debug.mount                                                              loaded    active   mounted   Debug File System
+  tmp.mount                                                                           loaded    inactive dead      Temporary Directory
+● var-lock.mount                                                                      not-found inactive dead      var-lock.mount
+● var-run.mount                                                                       not-found inactive dead      var-run.mount
+  acpid.path                                                                          loaded    active   running   ACPI Events Check
+  systemd-ask-password-console.path                                                   loaded    active   waiting   Dispatch Password Requests to Console Directory Watch
+  systemd-ask-password-wall.path                                                      loaded    active   waiting   Forward Password Requests to Wall Directory Watch
+  acpid.service                                                                       loaded    active   running   ACPI event daemon
+  apache2.service                                                                     loaded    active   running   LSB: Apache2 web server
+  atd.service                                                                         loaded    active   running   Deferred execution scheduler
+● auditd.service                                                                      not-found inactive dead      auditd.service
+● clamav-daemon.service                                                               not-found inactive dead      clamav-daemon.service
+● console-screen.service                                                              not-found inactive dead      console-screen.service
+  console-setup.service                                                               loaded    active   exited    LSB: Set console font and keymap
+  cron.service                                                                        loaded    active   running   Regular background program processing daemon
+  dbus.service                                                                        loaded    active   running   D-Bus System Message Bus
+  debian-fixup.service                                                                loaded    inactive dead      Various fixups to make systemd work better on Debian
+● display-manager.service                                                             not-found inactive dead      display-manager.service
+  emergency.service                                                                   loaded    inactive dead      Emergency Shell
+  exim4.service                                                                       loaded    active   exited    LSB: exim Mail Transport Agent
+  getty-static.service                                                                loaded    inactive dead      getty on tty2-tty6 if dbus and logind are not available
+  getty@tty1.service                                                                  loaded    active   running   Getty on tty1
+● greylist.service                                                                    not-found inactive dead      greylist.service
+  ifup@eth0.service                                                                   loaded    active   exited    ifup for eth0
+  kbd.service                                                                         loaded    active   exited    LSB: Prepare console
+  keyboard-setup.service                                                              loaded    active   exited    LSB: Set preliminary keymap
+● keymap.service                                                                      not-found inactive dead      keymap.service
+  kmod-static-nodes.service                                                           loaded    active   exited    Create list of required static device nodes for the current kernel
+● mountkernfs.service                                                                 masked    inactive dead      mountkernfs.service
+  mysql.service                                                                       loaded    active   running   LSB: Start and stop the mysql database server daemon
+  networking.service                                                                  loaded    active   exited    LSB: Raise network interfaces.
+  nfs-common.service                                                                  loaded    active   running   LSB: NFS support files common to client and server
+● plymouth-quit-wait.service                                                          not-found inactive dead      plymouth-quit-wait.service
+● plymouth-start.service                                                              not-found inactive dead      plymouth-start.service
+● postgresql.service                                                                  not-found inactive dead      postgresql.service
+  rc-local.service                                                                    loaded    active   running   /etc/rc.local Compatibility
+  rescue.service                                                                      loaded    inactive dead      Rescue Shell
+  rpcbind.service                                                                     loaded    active   running   LSB: RPC portmapper replacement
+  rsyslog.service                                                                     loaded    active   running   System Logging Service
+  sendmail.service                                                                    loaded    active   running   LSB: powerful, efficient, and scalable Mail Transport Agent
+● spamassassin.service                                                                not-found inactive dead      spamassassin.service
+  ssh.service                                                                         loaded    active   running   OpenBSD Secure Shell server
+  systemd-ask-password-console.service                                                loaded    inactive dead      Dispatch Password Requests to Console
+  systemd-ask-password-wall.service                                                   loaded    inactive dead      Forward Password Requests to Wall
+  systemd-binfmt.service                                                              loaded    inactive dead      Set Up Additional Binary Formats
+  systemd-fsck-root.service                                                           loaded    inactive dead      File System Check on Root Device
+  systemd-hostnamed.service                                                           loaded    active   running   Hostname Service
+  systemd-initctl.service                                                             loaded    inactive dead      /dev/initctl Compatibility Daemon
+  systemd-journal-flush.service                                                       loaded    inactive dead      Trigger Flushing of Journal to Persistent Storage
+  systemd-journald.service                                                            loaded    active   running   Journal Service
+  systemd-logind.service                                                              loaded    active   running   Login Service
+  systemd-modules-load.service                                                        loaded    active   exited    Load Kernel Modules
+  systemd-random-seed.service                                                         loaded    active   exited    Load/Save Random Seed
+  systemd-readahead-collect.service                                                   loaded    inactive dead      Collect Read-Ahead Data
+  systemd-readahead-done.service                                                      loaded    inactive dead      Stop Read-Ahead Data Collection
+  systemd-readahead-replay.service                                                    loaded    inactive dead      Replay Read-Ahead Data
+  systemd-remount-fs.service                                                          loaded    active   exited    Remount Root and Kernel File Systems
+  systemd-setup-dgram-qlen.service                                                    loaded    active   exited    Increase datagram queue length
+  systemd-shutdownd.service                                                           loaded    inactive dead      Delayed Shutdown Service
+  systemd-sysctl.service                                                              loaded    active   exited    Apply Kernel Variables
+● systemd-sysusers.service                                                            not-found inactive dead      systemd-sysusers.service
+  systemd-timedated.service                                                           loaded    active   running   Time & Date Service
+  systemd-tmpfiles-clean.service                                                      loaded    inactive dead      Cleanup of Temporary Directories
+  systemd-tmpfiles-setup-dev.service                                                  loaded    active   exited    Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                                                      loaded    active   exited    Create Volatile Files and Directories
+● systemd-udev-hwdb-update.service                                                    not-found inactive dead      systemd-udev-hwdb-update.service
+  systemd-udev-settle.service                                                         loaded    inactive dead      udev Wait for Complete Device Initialization
+  systemd-udev-trigger.service                                                        loaded    active   exited    udev Coldplug all Devices
+  systemd-udevd.service                                                               loaded    active   running   udev Kernel Device Manager
+  systemd-update-utmp-runlevel.service                                                loaded    inactive dead      Update UTMP about System Runlevel Changes
+  systemd-update-utmp.service                                                         loaded    active   exited    Update UTMP about System Boot/Shutdown
+  systemd-user-sessions.service                                                       loaded    active   exited    Permit User Sessions
+● systemd-vconsole-setup.service                                                      not-found inactive dead      systemd-vconsole-setup.service
+  udev-finish.service                                                                 loaded    active   exited    Copy rules generated while the root was ro
+  -.slice                                                                             loaded    active   active    Root Slice
+  system-getty.slice                                                                  loaded    active   active    system-getty.slice
+  system-ifup.slice                                                                   loaded    active   active    system-ifup.slice
+  system.slice                                                                        loaded    active   active    System Slice
+  user.slice                                                                          loaded    active   active    User and Session Slice
+  acpid.socket                                                                        loaded    active   running   ACPID Listen Socket
+  dbus.socket                                                                         loaded    active   running   D-Bus System Message Bus Socket
+  syslog.socket                                                                       loaded    active   running   Syslog Socket
+  systemd-initctl.socket                                                              loaded    active   listening /dev/initctl Compatibility Named Pipe
+  systemd-journald-dev-log.socket                                                     loaded    active   running   Journal Socket (/dev/log)
+  systemd-journald.socket                                                             loaded    active   running   Journal Socket
+  systemd-shutdownd.socket                                                            loaded    active   listening Delayed Shutdown Socket
+  systemd-udevd-control.socket                                                        loaded    active   running   udev Control Socket
+  systemd-udevd-kernel.socket                                                         loaded    active   running   udev Kernel Socket
+  dev-disk-by\x2did-scsi\x2d5\x2dpart5.swap                                           loaded    active   active    /dev/disk/by-id/scsi-5-part5
+  dev-disk-by\x2dpath-pci\x2d0000:00:14.0\x2dscsi\x2d0:0:0:0\x2dpart5.swap            loaded    active   active    /dev/disk/by-path/pci-0000:00:14.0-scsi-0:0:0:0-part5
+  dev-disk-by\x2duuid-a32142f4\x2d45e8\x2d400e\x2dbaf5\x2d5acb5fea65f5.swap           loaded    active   active    /dev/disk/by-uuid/a32142f4-45e8-400e-baf5-5acb5fea65f5
+  dev-sda5.swap                                                                       loaded    active   active    /dev/sda5
+  basic.target                                                                        loaded    active   active    Basic System
+  cryptsetup.target                                                                   loaded    active   active    Encrypted Volumes
+  emergency.target                                                                    loaded    inactive dead      Emergency Mode
+  getty.target                                                                        loaded    active   active    Login Prompts
+  graphical.target                                                                    loaded    active   active    Graphical Interface
+  local-fs-pre.target                                                                 loaded    active   active    Local File Systems (Pre)
+  local-fs.target                                                                     loaded    active   active    Local File Systems
+  multi-user.target                                                                   loaded    active   active    Multi-User System
+  network-online.target                                                               loaded    active   active    Network is Online
+  network-pre.target                                                                  loaded    inactive dead      Network (Pre)
+  network.target                                                                      loaded    active   active    Network
+  nss-lookup.target                                                                   loaded    inactive dead      Host and Network Name Lookups
+  nss-user-lookup.target                                                              loaded    inactive dead      User and Group Name Lookups
+  paths.target                                                                        loaded    active   active    Paths
+  remote-fs-pre.target                                                                loaded    active   active    Remote File Systems (Pre)
+  remote-fs.target                                                                    loaded    active   active    Remote File Systems
+  rescue.target                                                                       loaded    inactive dead      Rescue Mode
+  rpcbind.target                                                                      loaded    active   active    RPC Port Mapper
+  shutdown.target                                                                     loaded    inactive dead      Shutdown
+  slices.target                                                                       loaded    active   active    Slices
+  sockets.target                                                                      loaded    active   active    Sockets
+  sound.target                                                                        loaded    active   active    Sound Card
+  swap.target                                                                         loaded    active   active    Swap
+  sysinit.target                                                                      loaded    active   active    System Initialization
+  time-sync.target                                                                    loaded    inactive dead      System Time Synchronized
+  timers.target                                                                       loaded    active   active    Timers
+  umount.target                                                                       loaded    inactive dead      Unmount All Filesystems
+  systemd-readahead-done.timer                                                        loaded    inactive dead      Stop Read-Ahead Data Collection 10s After Completed Startup
+  systemd-tmpfiles-clean.timer                                                        loaded    active   waiting   Daily Cleanup of Temporary Directories
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+158 loaded units listed.
+To show all installed unit files use 'systemctl list-unit-files'.
+
+UNIT FILE                              STATE   
+proc-sys-fs-binfmt_misc.automount      static  
+dev-hugepages.mount                    static  
+dev-mqueue.mount                       static  
+proc-sys-fs-binfmt_misc.mount          static  
+sys-fs-fuse-connections.mount          static  
+sys-kernel-config.mount                static  
+sys-kernel-debug.mount                 static  
+tmp.mount                              disabled
+acpid.path                             enabled 
+systemd-ask-password-console.path      static  
+systemd-ask-password-wall.path         static  
+acpid.service                          disabled
+atd.service                            enabled 
+autovt@.service                        disabled
+bootlogd.service                       masked  
+bootlogs.service                       masked  
+bootmisc.service                       masked  
+checkfs.service                        masked  
+checkroot-bootclean.service            masked  
+checkroot.service                      masked  
+console-getty.service                  disabled
+console-shell.service                  disabled
+container-getty@.service               static  
+cron.service                           enabled 
+cryptdisks-early.service               masked  
+cryptdisks.service                     masked  
+dbus-org.freedesktop.hostname1.service static  
+dbus-org.freedesktop.locale1.service   static  
+dbus-org.freedesktop.login1.service    static  
+dbus-org.freedesktop.machine1.service  static  
+dbus-org.freedesktop.timedate1.service static  
+dbus.service                           static  
+debian-fixup.service                   static  
+debug-shell.service                    disabled
+emergency.service                      static  
+fuse.service                           masked  
+getty-static.service                   static  
+getty@.service                         enabled 
+halt-local.service                     static  
+halt.service                           masked  
+hostname.service                       masked  
+hwclock-save.service                   enabled 
+hwclock.service                        masked  
+hwclockfirst.service                   masked  
+ifup@.service                          static  
+initrd-cleanup.service                 static  
+initrd-parse-etc.service               static  
+initrd-switch-root.service             static  
+initrd-udevadm-cleanup-db.service      static  
+killprocs.service                      masked  
+kmod-static-nodes.service              static  
+kmod.service                           static  
+module-init-tools.service              static  
+motd.service                           masked  
+mountall-bootclean.service             masked  
+mountall.service                       masked  
+mountdevsubfs.service                  masked  
+mountkernfs.service                    masked  
+mountnfs-bootclean.service             masked  
+mountnfs.service                       masked  
+procps.service                         static  
+quotaon.service                        static  
+rc-local.service                       static  
+rc.local.service                       static  
+reboot.service                         masked  
+rescue.service                         static  
+rmnologin.service                      masked  
+rsync.service                          disabled
+rsyslog.service                        enabled 
+sendsigs.service                       masked  
+serial-getty@.service                  disabled
+single.service                         masked  
+ssh.service                            enabled 
+ssh@.service                           static  
+sshd.service                           enabled 
+stop-bootlogd-single.service           masked  
+stop-bootlogd.service                  masked  
+sudo.service                           disabled
+syslog.service                         enabled 
+systemd-ask-password-console.service   static  
+systemd-ask-password-wall.service      static  
+systemd-backlight@.service             static  
+systemd-binfmt.service                 static  
+systemd-fsck-root.service              static  
+systemd-fsck@.service                  static  
+systemd-halt.service                   static  
+systemd-hibernate.service              static  
+systemd-hostnamed.service              static  
+systemd-hybrid-sleep.service           static  
+systemd-initctl.service                static  
+systemd-journal-flush.service          static  
+systemd-journald.service               static  
+systemd-kexec.service                  static  
+systemd-localed.service                static  
+systemd-logind.service                 static  
+systemd-machined.service               static  
+systemd-modules-load.service           static  
+systemd-networkd-wait-online.service   disabled
+systemd-networkd.service               disabled
+systemd-nspawn@.service                disabled
+systemd-poweroff.service               static  
+systemd-quotacheck.service             static  
+systemd-random-seed.service            static  
+systemd-readahead-collect.service      disabled
+systemd-readahead-done.service         static  
+systemd-readahead-drop.service         disabled
+systemd-readahead-replay.service       disabled
+systemd-reboot.service                 static  
+systemd-remount-fs.service             static  
+systemd-resolved.service               disabled
+systemd-rfkill@.service                static  
+systemd-setup-dgram-qlen.service       static  
+systemd-shutdownd.service              static  
+systemd-suspend.service                static  
+systemd-sysctl.service                 static  
+systemd-timedated.service              static  
+systemd-timesyncd.service              disabled
+systemd-tmpfiles-clean.service         static  
+systemd-tmpfiles-setup-dev.service     static  
+systemd-tmpfiles-setup.service         static  
+systemd-udev-settle.service            static  
+systemd-udev-trigger.service           static  
+systemd-udevd.service                  static  
+systemd-update-utmp-runlevel.service   static  
+systemd-update-utmp.service            static  
+systemd-user-sessions.service          static  
+udev-finish.service                    static  
+udev.service                           static  
+umountfs.service                       masked  
+umountnfs.service                      masked  
+umountroot.service                     masked  
+urandom.service                        static  
+user@.service                          static  
+x11-common.service                     masked  
+-.slice                                static  
+machine.slice                          static  
+system.slice                           static  
+user.slice                             static  
+acpid.socket                           enabled 
+dbus.socket                            static  
+ssh.socket                             disabled
+syslog.socket                          static  
+systemd-initctl.socket                 static  
+systemd-journald-dev-log.socket        static  
+systemd-journald.socket                static  
+systemd-shutdownd.socket               static  
+systemd-udevd-control.socket           static  
+systemd-udevd-kernel.socket            static  
+basic.target                           static  
+bluetooth.target                       static  
+cryptsetup-pre.target                  static  
+cryptsetup.target                      static  
+ctrl-alt-del.target                    disabled
+default.target                         static  
+emergency.target                       static  
+final.target                           static  
+getty.target                           static  
+graphical.target                       static  
+halt.target                            disabled
+hibernate.target                       static  
+hybrid-sleep.target                    static  
+initrd-fs.target                       static  
+initrd-root-fs.target                  static  
+initrd-switch-root.target              static  
+initrd.target                          static  
+kexec.target                           disabled
+local-fs-pre.target                    static  
+local-fs.target                        static  
+mail-transport-agent.target            static  
+multi-user.target                      static  
+network-online.target                  static  
+network-pre.target                     static  
+network.target                         static  
+nss-lookup.target                      static  
+nss-user-lookup.target                 static  
+paths.target                           static  
+poweroff.target                        disabled
+printer.target                         static  
+reboot.target                          disabled
+remote-fs-pre.target                   static  
+remote-fs.target                       enabled 
+rescue.target                          disabled
+rpcbind.target                         static  
+runlevel0.target                       disabled
+runlevel1.target                       disabled
+runlevel2.target                       static  
+runlevel3.target                       static  
+runlevel4.target                       static  
+runlevel5.target                       static  
+runlevel6.target                       disabled
+shutdown.target                        static  
+sigpwr.target                          static  
+sleep.target                           static  
+slices.target                          static  
+smartcard.target                       static  
+sockets.target                         static  
+sound.target                           static  
+suspend.target                         static  
+swap.target                            static  
+sysinit.target                         static  
+system-update.target                   static  
+time-sync.target                       static  
+timers.target                          static  
+umount.target                          static  
+systemd-readahead-done.timer           static  
+systemd-tmpfiles-clean.timer           static  
+
+206 unit files listed.
