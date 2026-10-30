@@ -3,6 +3,10 @@
 Σύντομος οδηγός για το στήσιμο και τη χρήση των δύο εργαλείων σε ένα CTF εργαστήριο
 (δικά σου ή εγκεκριμένα μηχανήματα).
 
+git clone git clone https://github.com/dr-skaragiannis/CTF-Crawler.git
+cd CTF-Crawler
+cat README.md
+
 ## 1. Εγκατάσταση στο Kali (επιτιθέμενος)
 
 ```bash
