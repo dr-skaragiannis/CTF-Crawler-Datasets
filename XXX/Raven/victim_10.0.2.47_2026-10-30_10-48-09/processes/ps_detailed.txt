@@ -1,0 +1,81 @@
+  PID  PPID USER                      STARTED     ELAPSED STAT CMD
+    1     0 root     Sat Oct 31 03:48:22 2026       20:45 Ss   /sbin/init
+    2     0 root     Sat Oct 31 03:48:22 2026       20:45 S    [kthreadd]
+    3     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [ksoftirqd/0]
+    5     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [kworker/0:0H]
+    6     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [kworker/u2:0]
+    7     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [rcu_sched]
+    8     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [rcu_bh]
+    9     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [migration/0]
+   10     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [watchdog/0]
+   11     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [khelper]
+   12     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [kdevtmpfs]
+   13     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [netns]
+   14     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [khungtaskd]
+   15     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [writeback]
+   16     2 root     Sat Oct 31 03:48:22 2026       20:45 SN   [ksmd]
+   17     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [crypto]
+   18     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [kintegrityd]
+   19     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [bioset]
+   20     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [kblockd]
+   22     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [kswapd0]
+   23     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [vmstat]
+   24     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [fsnotify_mark]
+   30     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [kthrotld]
+   31     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [ipv6_addrconf]
+   32     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [deferwq]
+   66     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [khubd]
+   67     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [ata_sff]
+   68     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [kpsmoused]
+   71     2 root     Sat Oct 31 03:48:22 2026       20:45 S    [kworker/0:2]
+   72     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [mpt_poll_0]
+   73     2 root     Sat Oct 31 03:48:22 2026       20:45 S<   [mpt/0]
+   74     2 root     Sat Oct 31 03:48:23 2026       20:44 S    [scsi_eh_0]
+   75     2 root     Sat Oct 31 03:48:23 2026       20:44 S<   [scsi_tmf_0]
+   76     2 root     Sat Oct 31 03:48:23 2026       20:44 S    [scsi_eh_1]
+   77     2 root     Sat Oct 31 03:48:23 2026       20:44 S    [kworker/u2:2]
+   78     2 root     Sat Oct 31 03:48:23 2026       20:44 S<   [scsi_tmf_1]
+   79     2 root     Sat Oct 31 03:48:23 2026       20:44 S    [scsi_eh_2]
+   80     2 root     Sat Oct 31 03:48:23 2026       20:44 S<   [scsi_tmf_2]
+   85     2 root     Sat Oct 31 03:48:23 2026       20:44 S<   [kworker/0:1H]
+  105     2 root     Sat Oct 31 03:48:25 2026       20:42 S    [jbd2/sda1-8]
+  106     2 root     Sat Oct 31 03:48:25 2026       20:42 S<   [ext4-rsv-conver]
+  136     2 root     Sat Oct 31 03:48:25 2026       20:42 S    [kauditd]
+  138     1 root     Sat Oct 31 03:48:25 2026       20:42 Ss   /lib/systemd/systemd-journald
+  148     1 root     Sat Oct 31 03:48:25 2026       20:42 Ss   /lib/systemd/systemd-udevd
+  374     1 root     Sat Oct 31 03:48:28 2026       20:39 Ss   /sbin/rpcbind -w
+  384     1 statd    Sat Oct 31 03:48:29 2026       20:38 Ss   /sbin/rpc.statd
+  394     2 root     Sat Oct 31 03:48:29 2026       20:38 S<   [rpciod]
+  401     2 root     Sat Oct 31 03:48:29 2026       20:38 S<   [nfsiod]
+  410     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   dhclient -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+  426     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   /usr/sbin/rpc.idmapd
+  427     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   /usr/sbin/cron -f
+  429     1 daemon   Sat Oct 31 03:48:29 2026       20:38 Ss   /usr/sbin/atd -f
+  431     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   /lib/systemd/systemd-logind
+  438     1 message+ Sat Oct 31 03:48:29 2026       20:38 Ss   /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  440     1 root     Sat Oct 31 03:48:29 2026       20:38 S    /sbin/getty -L ttyS0 115200 vt220
+  474     1 root     Sat Oct 31 03:48:29 2026       20:38 Ssl  /usr/sbin/rsyslogd -n
+  476     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   /usr/sbin/acpid
+  482     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   /usr/sbin/sshd -D
+  491     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss+  /sbin/agetty --noclear tty1 linux
+  534     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   sendmail: MTA: accepting connections          
+  552     1 root     Sat Oct 31 03:48:29 2026       20:38 S    /bin/sh /usr/bin/mysqld_safe
+  562     1 root     Sat Oct 31 03:48:29 2026       20:38 Ss   /usr/sbin/apache2 -k start
+  670   562 www-data Sat Oct 31 03:48:29 2026       20:38 S    /usr/sbin/apache2 -k start
+  671   562 www-data Sat Oct 31 03:48:29 2026       20:38 S    /usr/sbin/apache2 -k start
+  672   562 www-data Sat Oct 31 03:48:29 2026       20:38 S    /usr/sbin/apache2 -k start
+  675   562 www-data Sat Oct 31 03:48:29 2026       20:38 S    /usr/sbin/apache2 -k start
+  676   562 www-data Sat Oct 31 03:48:29 2026       20:38 S    /usr/sbin/apache2 -k start
+  916   552 root     Sat Oct 31 03:48:29 2026       20:38 Sl   /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/mysql/plugin --user=root --log-error=/var/log/mysql/error.log --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/run/mysqld/mysqld.sock --port=3306
+ 1165   482 root     Sat Oct 31 04:00:55 2026       08:12 Ss   sshd: bloodraven [priv]
+ 1167  1165 bloodra+ Sat Oct 31 04:00:59 2026       08:08 S    sshd: bloodraven@pts/0
+ 1168  1167 bloodra+ Sat Oct 31 04:00:59 2026       08:08 Ss+  -bash
+ 1175  1168 root     Sat Oct 31 04:01:00 2026       08:07 T    sudo root
+ 1178     2 root     Sat Oct 31 04:03:37 2026       05:30 S    [kworker/0:0]
+ 1196   482 root     Sat Oct 31 04:08:49 2026       00:18 Ss   sshd: bloodraven [priv]
+ 1198  1196 bloodra+ Sat Oct 31 04:08:52 2026       00:15 S    sshd: bloodraven@notty
+ 1261     1 root     Sat Oct 31 04:09:07 2026       00:00 Ss   /lib/systemd/systemd-hostnamed
+ 1269     1 root     Sat Oct 31 04:09:07 2026       00:00 Ss   /lib/systemd/systemd-timedated
+ 1335  1198 root     Sat Oct 31 04:09:07 2026       00:00 Ss   sudo -S -k -p  sh -c ps -eo pid,ppid,user,lstart,etime,stat,cmd --sort=start_time
+ 1336  1335 root     Sat Oct 31 04:09:07 2026       00:00 S    sh -c ps -eo pid,ppid,user,lstart,etime,stat,cmd --sort=start_time
+ 1337  1336 root     Sat Oct 31 04:09:07 2026       00:00 R    ps -eo pid,ppid,user,lstart,etime,stat,cmd --sort=start_time

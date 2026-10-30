@@ -1,0 +1,14 @@
+Challenge:      Raven
+Target IP:      10.0.2.47
+Attacker user:  kali
+Attacker host:  Linux kali 6.19.14+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.19.14-1+kali1 (2026-05-05) x86_64 GNU/Linux
+Started:        2026-10-30 11:16:16 -0400
+
+--- ip -br addr ---
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eth0             UP             10.0.2.50/24 fe80::1056:4493:3f9:ff0e/64 
+
+--- ip route ---
+default via 10.0.2.1 dev eth0 proto dhcp src 10.0.2.50 metric 100 
+10.0.2.0/24 dev eth0 proto kernel scope link src 10.0.2.50 metric 100 
+

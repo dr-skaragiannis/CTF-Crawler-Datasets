@@ -1,0 +1,5 @@
+NEXT                          LEFT     LAST                          PASSED   UNIT                         ACTIVATES
+Sun 2026-11-01 04:03:37 AEDT  23h left Sat 2026-10-31 04:03:37 AEDT  5min ago systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+n/a                           n/a      n/a                           n/a      systemd-readahead-done.timer systemd-readahead-done.service
+
+2 timers listed.

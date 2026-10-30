@@ -1,0 +1,15 @@
+SUDO_GID=1002
+MAIL=/var/mail/root
+LANGUAGE=en_AU:en
+USER=root
+HOME=/root
+SUDO_UID=1002
+LOGNAME=root
+USERNAME=root
+TERM=unknown
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+LANG=en_AU.UTF-8
+SUDO_COMMAND=/bin/sh -c env
+SHELL=/bin/bash
+SUDO_USER=bloodraven
+PWD=/home/bloodraven

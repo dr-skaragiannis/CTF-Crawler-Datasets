@@ -1,0 +1,48 @@
+Script started on 2026-10-30 11:16:53-04:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="128" LINES="35"]
+                                                                                                                                ]0;kali@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hn[4mn[24m[4mn[4mm[24m[24m[36mn[24m[36mm[39m[36mn[36mm[36ma[39m[39m[4mn[39m[4mm[39m[4ma[24m[4ma[4mp[24m[24m[36mn[24m[36mm[24m[36ma[24m[36mp[39m[36mp[36m [39m[36mp[39m[39m localhost[?1l>[?2004l
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-10-30 11:16 -0400
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000018s latency).
+Other addresses for localhost (not scanned): ::1
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.15 seconds
+                                                                                                                                ]0;kali@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hn[4mn[24m[4mn[24m[38;5;244mmap localhost[39m[13D[4mn[39m[4mm[24m[24m[36mn[24m[36mm[39m[36mn[36mm[36ma[39m[39m[4mn[39m[4mm[39m[4ma[24m[4ma[39m[4mp[24m[24m[36mn[24m[36mm[24m[36ma[24m[36mp[39m[36mp[36m [39m[36mp[39m[39m [39m1[39m [39m [39m [39m [39m [39m [39m [39m [8D0.0    [38;5;244mlocalhost[39m[9D[39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;5;244m localhost[39m[10D[36ma[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[39m[4mn[39m[4mm[39m[4ma[24m[38;5;244mp localhost[39m[11D[4mn[4mm[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[24m[36mn[24m[36mm[39m[38;5;244map localhost[39m[12D[36mn[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[39m[4mn[24m[4mn[24m[38;5;244mmap localhost[39m[13D[4mn[39m[4ma[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[4mn[4ma[4mr[24m[4mr[4m-[24m[4mr[24m[24m [4mn[4ma[24m[24m [4mn[24m[24m [4mn[24m[38;5;244mmap localhost[39m[13D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14Da[4ma[24m[4ma[4ms[24m[24m[36ma[24m[36ms[39m[36ma[36ms[36mr[39m[39m[4ma[39m[4ms[39m[4mr[24m[4ma[4ms[24m[24m [24m[36ma[24m[36ms[39m[36ma[39m[39m [39m[4ma[24m[4ma[4mr[24m[24m[36ma[24m[36mr[39m[36ma[36mr[36mo[39m[39m[4ma[39m[4mr[39m[4mo[24m[4ma[4mr[24m[24m [24m[36ma[24m[36mr[39m[36ma[36mr[36mp[39m[36mp[36m-[39m[39m[4ma[39m[4mr[39m[4mp[39m[4m-[24m[4m-[4ms[24m[4ms[4mc[24m[4mc[4ma[24m[4ma[4mn[24m[8D[24m[36ma[24m[36mr[24m[36mp[24m[36m-[24m[36ms[24m[36mc[24m[36ma[24m[36mn[39m[36mn[36m [39m[36mn[39m[39m -[32m-[39m[32m-[32ml[39m[?1l>[?2004l
+pcap_activate: eth0: You don't have permission to perform this capture on that device
+(Attempt to create packet socket failed - CAP_NET_RAW may be required)
+                                                                                                                                ]0;kali@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004harp-scan -l[11D[36ma[36mr[36mp[36m-[36ms[36mc[36ma[36mn[39m [32m-[32ml[39m[9D[39ms[36ma[36mr[36mp[36m-[36ms[36mc[36ma[36mn[39m[39m [32m-[32ml[39m[11D[4ms[39m[4ma[39m[4mr[39m[4mp[39m[4m-[39m[4ms[39m[4mc[39m[4ma[39m[4mn[24m[8D[4ms[4mu[4ma[4mr[4mp[4m-[4ms[4mc[4ma[4mn[24m[39m [32m-[32ml[39m[11D[4md[4ma[4mr[4mp[4m-[4ms[4mc[4ma[4mn[24m[39m [32m-[32ml[39m[11D[4mo[4ma[4mr[4mp[4m-[4ms[4mc[4ma[4mn[24m[39m [32m-[32ml[39m[11D[4m [4ma[4mr[4mp[4m-[4ms[4mc[4ma[4mn[24m[39m [32m-[32ml[39m[11D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[24m [24m[36ma[24m[36mr[24m[36mp[24m[36m-[24m[36ms[24m[36mc[24m[36ma[24m[36mn[39m[8D[?1l>[?2004l
+[sudo] password for kali: 
+Interface: eth0, type: EN10MB, MAC: 08:00:27:5a:87:bc, IPv4: 10.0.2.50
+WARNING: Cannot open MAC/Vendor file ieee-oui.txt: Permission denied
+WARNING: Cannot open MAC/Vendor file mac-vendor.txt: Permission denied
+Starting arp-scan 1.10.0 with 256 hosts (https://github.com/royhills/arp-scan)
+10.0.2.1	52:54:00:12:35:00	(Unknown: locally administered)
+10.0.2.2	52:54:00:12:35:00	(Unknown: locally administered)
+10.0.2.3	08:00:27:e9:6f:53	(Unknown)
+10.0.2.47	08:00:27:88:12:23	(Unknown)
+^C^Z^X
+                                                                                                                                ]0;kali@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hn[4mn[24m[4mn[24m[38;5;244mmap localhost[39m[13D[4mn[39m[4mm[24m[24m[36mn[24m[36mm[39m[36mn[36mm[36ma[39m[39m[4mn[39m[4mm[39m[4ma[24m[4ma[39m[4mp[24m[24m[36mn[24m[36mm[24m[36ma[24m[36mp[39m[36mp[36m [39m[36mp[39m[39m [39m1[39m0[39m.[39m0[39m.[39m2[39m.[39m4[39m7[?1l>[?2004l
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-10-30 11:17 -0400
+Stats: 0:00:00 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 1.00% done; ETC: 11:17 (0:00:00 remaining)
+Nmap scan report for 10.0.2.47
+Host is up (0.00012s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+MAC Address: 08:00:27:88:12:23 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+                                                                                                                                ]0;kali@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h

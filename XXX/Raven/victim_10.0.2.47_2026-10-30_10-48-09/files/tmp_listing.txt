@@ -1,0 +1,92 @@
+/dev/shm:
+total 0
+drwxrwxrwt  2 root root   40 Oct 31 03:48 .
+drwxr-xr-x 16 root root 2840 Oct 31 03:48 ..
+
+/tmp:
+total 36
+drwxrwxrwt  9 root root 4096 Oct 31 04:09 .
+drwxr-xr-x 22 root root 4096 Aug 13  2018 ..
+drwxrwxrwt  2 root root 4096 Oct 31 03:48 .font-unix
+drwxrwxrwt  2 root root 4096 Oct 31 03:48 .ICE-unix
+drwx------  3 root root 4096 Oct 31 04:09 systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-hostnamed.service-fUKwxM
+drwx------  3 root root 4096 Oct 31 04:09 systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-timedated.service-C6byLn
+drwxrwxrwt  2 root root 4096 Oct 31 03:48 .Test-unix
+drwxrwxrwt  2 root root 4096 Oct 31 03:48 .X11-unix
+drwxrwxrwt  2 root root 4096 Oct 31 03:48 .XIM-unix
+
+/tmp/.font-unix:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 03:48 .
+drwxrwxrwt 9 root root 4096 Oct 31 04:09 ..
+
+/tmp/.ICE-unix:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 03:48 .
+drwxrwxrwt 9 root root 4096 Oct 31 04:09 ..
+
+/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-hostnamed.service-fUKwxM:
+total 12
+drwx------ 3 root root 4096 Oct 31 04:09 .
+drwxrwxrwt 9 root root 4096 Oct 31 04:09 ..
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 tmp
+
+/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-hostnamed.service-fUKwxM/tmp:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 .
+drwx------ 3 root root 4096 Oct 31 04:09 ..
+
+/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-timedated.service-C6byLn:
+total 12
+drwx------ 3 root root 4096 Oct 31 04:09 .
+drwxrwxrwt 9 root root 4096 Oct 31 04:09 ..
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 tmp
+
+/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-timedated.service-C6byLn/tmp:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 .
+drwx------ 3 root root 4096 Oct 31 04:09 ..
+
+/tmp/.Test-unix:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 03:48 .
+drwxrwxrwt 9 root root 4096 Oct 31 04:09 ..
+
+/tmp/.X11-unix:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 03:48 .
+drwxrwxrwt 9 root root 4096 Oct 31 04:09 ..
+
+/tmp/.XIM-unix:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 03:48 .
+drwxrwxrwt 9 root root 4096 Oct 31 04:09 ..
+
+/var/tmp:
+total 16
+drwxrwxrwt  4 root root 4096 Oct 31 04:09 .
+drwxr-xr-x 12 root root 4096 Aug 13  2018 ..
+drwx------  3 root root 4096 Oct 31 04:09 systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-hostnamed.service-LRcf54
+drwx------  3 root root 4096 Oct 31 04:09 systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-timedated.service-J9ERrG
+
+/var/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-hostnamed.service-LRcf54:
+total 12
+drwx------ 3 root root 4096 Oct 31 04:09 .
+drwxrwxrwt 4 root root 4096 Oct 31 04:09 ..
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 tmp
+
+/var/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-hostnamed.service-LRcf54/tmp:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 .
+drwx------ 3 root root 4096 Oct 31 04:09 ..
+
+/var/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-timedated.service-J9ERrG:
+total 12
+drwx------ 3 root root 4096 Oct 31 04:09 .
+drwxrwxrwt 4 root root 4096 Oct 31 04:09 ..
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 tmp
+
+/var/tmp/systemd-private-706a56a90d7e4be1ac2afaffb2d1b27d-systemd-timedated.service-J9ERrG/tmp:
+total 8
+drwxrwxrwt 2 root root 4096 Oct 31 04:09 .
+drwx------ 3 root root 4096 Oct 31 04:09 ..

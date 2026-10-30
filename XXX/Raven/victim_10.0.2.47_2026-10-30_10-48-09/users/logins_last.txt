@@ -1,0 +1,69 @@
+bloodraven pts/0        Sat Oct 31 04:00:59 2026   still logged in                       10.0.2.50
+bloodraven pts/0        Sat Oct 31 03:59:02 2026 - Sat Oct 31 04:00:29 2026  (00:01)     10.0.2.50
+runlevel (to lvl 5)   Sat Oct 31 03:48:31 2026 - Sat Oct 31 04:09:07 2026  (00:20)     0.0.0.0
+reboot   system boot  Sat Oct 31 03:48:25 2026 - Sat Oct 31 04:09:07 2026  (00:20)     0.0.0.0
+bloodraven tty1         Sat Oct 31 03:26:01 2026 - crash                     (00:22)     0.0.0.0
+runlevel (to lvl 5)   Sat Oct 31 03:25:58 2026 - Sat Oct 31 03:48:31 2026  (00:22)     0.0.0.0
+reboot   system boot  Sat Oct 31 03:25:52 2026 - Sat Oct 31 04:09:07 2026  (00:43)     0.0.0.0
+steven   pts/0        Sat Oct 31 01:34:39 2026 - crash                     (01:51)     10.0.2.50
+michael  pts/0        Sat Oct 31 01:11:58 2026 - Sat Oct 31 01:34:36 2026  (00:22)     10.0.2.50
+steven   pts/0        Sat Oct 31 01:10:48 2026 - Sat Oct 31 01:11:53 2026  (00:01)     10.0.2.50
+michael  pts/0        Sat Oct 31 01:08:36 2026 - Sat Oct 31 01:10:43 2026  (00:02)     10.0.2.50
+steven   pts/0        Sat Oct 31 01:00:56 2026 - Sat Oct 31 01:08:28 2026  (00:07)     10.0.2.50
+runlevel (to lvl 5)   Sat Oct 31 01:00:08 2026 - Sat Oct 31 03:25:58 2026  (02:25)     0.0.0.0
+reboot   system boot  Sat Oct 31 01:00:02 2026 - Sat Oct 31 04:09:07 2026  (03:09)     0.0.0.0
+runlevel (to lvl 5)   Fri Oct 30 22:47:29 2026 - Sat Oct 31 01:00:08 2026  (02:12)     0.0.0.0
+reboot   system boot  Fri Oct 30 22:47:22 2026 - Sat Oct 31 04:09:07 2026  (05:21)     0.0.0.0
+root     ttyS0        Tue Oct 13 13:37:00 2026 - crash                    (17+09:10)   0.0.0.0
+runlevel (to lvl 5)   Tue Oct 13 13:35:30 2026 - Fri Oct 30 22:47:29 2026 (17+09:11)   0.0.0.0
+reboot   system boot  Tue Oct 13 13:35:23 2026 - Sat Oct 31 04:09:07 2026 (17+14:33)   0.0.0.0
+shutdown system down  Tue Oct 13 13:14:14 2026 - Tue Oct 13 13:35:23 2026  (00:21)     0.0.0.0
+root     ttyS0        Tue Oct 13 12:44:54 2026 - down                      (00:29)     0.0.0.0
+bloodraven tty1         Tue Oct 13 12:44:34 2026 - down                      (00:29)     0.0.0.0
+runlevel (to lvl 5)   Tue Oct 13 12:44:29 2026 - Tue Oct 13 13:14:14 2026  (00:29)     0.0.0.0
+reboot   system boot  Tue Oct 13 12:44:23 2026 - Tue Oct 13 13:14:14 2026  (00:29)     0.0.0.0
+shutdown system down  Mon Aug 13 17:30:14 2018 - Tue Oct 13 12:44:23 2026 (2982+18:14) 0.0.0.0
+root     tty1         Mon Aug 13 17:26:19 2018 - down                      (00:03)     0.0.0.0
+runlevel (to lvl 5)   Mon Aug 13 17:26:08 2018 - Mon Aug 13 17:30:14 2018  (00:04)     0.0.0.0
+reboot   system boot  Mon Aug 13 17:26:00 2018 - Mon Aug 13 17:30:14 2018  (00:04)     0.0.0.0
+shutdown system down  Mon Aug 13 14:34:38 2018 - Mon Aug 13 17:26:00 2018  (02:51)     0.0.0.0
+root     tty1         Mon Aug 13 14:34:04 2018 - down                      (00:00)     0.0.0.0
+runlevel (to lvl 5)   Mon Aug 13 14:33:14 2018 - Mon Aug 13 14:34:38 2018  (00:01)     0.0.0.0
+reboot   system boot  Mon Aug 13 14:33:06 2018 - Mon Aug 13 14:34:38 2018  (00:01)     0.0.0.0
+shutdown system down  Mon Aug 13 14:32:40 2018 - Mon Aug 13 14:33:06 2018  (00:00)     0.0.0.0
+root     tty1         Mon Aug 13 14:16:24 2018 - down                      (00:16)     0.0.0.0
+steven   tty1         Mon Aug 13 14:12:04 2018 - Mon Aug 13 14:16:20 2018  (00:04)     0.0.0.0
+root     tty1         Mon Aug 13 14:10:55 2018 - Mon Aug 13 14:11:51 2018  (00:00)     0.0.0.0
+steven   tty1         Mon Aug 13 14:09:01 2018 - Mon Aug 13 14:10:52 2018  (00:01)     0.0.0.0
+root     tty1         Mon Aug 13 14:08:27 2018 - Mon Aug 13 14:08:55 2018  (00:00)     0.0.0.0
+steven   tty1         Mon Aug 13 14:08:05 2018 - Mon Aug 13 14:08:23 2018  (00:00)     0.0.0.0
+root     tty1         Mon Aug 13 14:06:41 2018 - Mon Aug 13 14:07:59 2018  (00:01)     0.0.0.0
+steven   tty1         Mon Aug 13 14:06:07 2018 - Mon Aug 13 14:06:37 2018  (00:00)     0.0.0.0
+steven   tty1         Mon Aug 13 13:59:00 2018 - Mon Aug 13 14:05:59 2018  (00:06)     0.0.0.0
+steven   tty1         Mon Aug 13 13:57:16 2018 - Mon Aug 13 13:58:55 2018  (00:01)     0.0.0.0
+steven   tty1         Mon Aug 13 13:51:36 2018 - Mon Aug 13 13:57:04 2018  (00:05)     0.0.0.0
+root     tty1         Mon Aug 13 13:50:14 2018 - Mon Aug 13 13:51:28 2018  (00:01)     0.0.0.0
+steven   tty1         Mon Aug 13 13:43:50 2018 - Mon Aug 13 13:50:11 2018  (00:06)     0.0.0.0
+root     tty1         Mon Aug 13 13:43:35 2018 - Mon Aug 13 13:43:46 2018  (00:00)     0.0.0.0
+steven   tty1         Mon Aug 13 13:43:14 2018 - Mon Aug 13 13:43:32 2018  (00:00)     0.0.0.0
+root     tty1         Mon Aug 13 13:42:01 2018 - Mon Aug 13 13:43:05 2018  (00:01)     0.0.0.0
+runlevel (to lvl 5)   Mon Aug 13 13:40:48 2018 - Mon Aug 13 14:32:40 2018  (00:51)     0.0.0.0
+reboot   system boot  Mon Aug 13 13:40:40 2018 - Mon Aug 13 14:32:40 2018  (00:52)     0.0.0.0
+shutdown system down  Mon Aug 13 12:23:38 2018 - Mon Aug 13 13:40:40 2018  (01:17)     0.0.0.0
+root     tty1         Mon Aug 13 12:11:25 2018 - down                      (00:12)     0.0.0.0
+runlevel (to lvl 5)   Mon Aug 13 12:09:59 2018 - Mon Aug 13 12:23:38 2018  (00:13)     0.0.0.0
+reboot   system boot  Mon Aug 13 12:09:52 2018 - Mon Aug 13 12:23:38 2018  (00:13)     0.0.0.0
+shutdown system down  Mon Aug 13 11:50:17 2018 - Mon Aug 13 12:09:52 2018  (00:19)     0.0.0.0
+root     tty1         Mon Aug 13 11:47:10 2018 - down                      (00:03)     0.0.0.0
+runlevel (to lvl 5)   Mon Aug 13 11:46:15 2018 - Mon Aug 13 11:50:17 2018  (00:04)     0.0.0.0
+reboot   system boot  Mon Aug 13 11:46:08 2018 - Mon Aug 13 11:50:17 2018  (00:04)     0.0.0.0
+shutdown system down  Mon Aug 13 09:59:29 2018 - Mon Aug 13 11:46:08 2018  (01:46)     0.0.0.0
+root     tty1         Mon Aug 13 08:12:46 2018 - down                      (01:46)     0.0.0.0
+runlevel (to lvl 5)   Mon Aug 13 08:06:08 2018 - Mon Aug 13 09:59:29 2018  (01:53)     0.0.0.0
+reboot   system boot  Mon Aug 13 08:05:59 2018 - Mon Aug 13 09:59:29 2018  (01:53)     0.0.0.0
+shutdown system down  Mon Aug 13 08:05:31 2018 - Mon Aug 13 08:05:59 2018  (00:00)     0.0.0.0
+root     tty1         Mon Aug 13 07:53:14 2018 - down                      (00:12)     0.0.0.0
+runlevel (to lvl 5)   Mon Aug 13 07:52:55 2018 - Mon Aug 13 08:05:31 2018  (00:12)     0.0.0.0
+reboot   system boot  Mon Aug 13 07:52:48 2018 - Mon Aug 13 08:05:31 2018  (00:12)     0.0.0.0
+
+wtmp begins Mon Aug 13 07:52:48 2018

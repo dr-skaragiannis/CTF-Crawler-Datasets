@@ -1,0 +1,456 @@
+[Sat Oct 31 03:48:22 2026] Initializing cgroup subsys cpuset
+[Sat Oct 31 03:48:22 2026] Initializing cgroup subsys cpu
+[Sat Oct 31 03:48:22 2026] Initializing cgroup subsys cpuacct
+[Sat Oct 31 03:48:22 2026] Linux version 3.16.0-6-amd64 (debian-kernel@lists.debian.org) (gcc version 4.9.2 (Debian 4.9.2-10+deb8u1) ) #1 SMP Debian 3.16.57-2 (2018-07-14)
+[Sat Oct 31 03:48:22 2026] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-6-amd64 root=UUID=ec19ac44-03d3-467b-b1c4-92a2749f99e2 ro quiet
+[Sat Oct 31 03:48:22 2026] [Firmware Bug]: TSC doesn't count with P0 frequency!
+[Sat Oct 31 03:48:22 2026] e820: BIOS-provided physical RAM map:
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x0000000000100000-0x000000001ffeffff] usable
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x000000001fff0000-0x000000001fffffff] ACPI data
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[Sat Oct 31 03:48:22 2026] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+[Sat Oct 31 03:48:22 2026] NX (Execute Disable) protection: active
+[Sat Oct 31 03:48:22 2026] SMBIOS 2.5 present.
+[Sat Oct 31 03:48:22 2026] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[Sat Oct 31 03:48:22 2026] Hypervisor detected: KVM
+[Sat Oct 31 03:48:22 2026] Kernel/User page tables isolation: disabled
+[Sat Oct 31 03:48:22 2026] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[Sat Oct 31 03:48:22 2026] e820: remove [mem 0x000a0000-0x000fffff] usable
+[Sat Oct 31 03:48:22 2026] AGP: No AGP bridge found
+[Sat Oct 31 03:48:22 2026] e820: last_pfn = 0x1fff0 max_arch_pfn = 0x400000000
+[Sat Oct 31 03:48:22 2026] MTRR default type: uncachable
+[Sat Oct 31 03:48:22 2026] MTRR variable ranges disabled:
+[Sat Oct 31 03:48:22 2026] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+[Sat Oct 31 03:48:22 2026] CPU MTRRs all blank - virtualized system.
+[Sat Oct 31 03:48:22 2026] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+[Sat Oct 31 03:48:22 2026] Base memory trampoline at [ffff880000099000] 99000 size 24576
+[Sat Oct 31 03:48:22 2026] init_memory_mapping: [mem 0x00000000-0x000fffff]
+[Sat Oct 31 03:48:22 2026]  [mem 0x00000000-0x000fffff] page 4k
+[Sat Oct 31 03:48:22 2026] BRK [0x01b10000, 0x01b10fff] PGTABLE
+[Sat Oct 31 03:48:22 2026] BRK [0x01b11000, 0x01b11fff] PGTABLE
+[Sat Oct 31 03:48:22 2026] BRK [0x01b12000, 0x01b12fff] PGTABLE
+[Sat Oct 31 03:48:22 2026] init_memory_mapping: [mem 0x1fc00000-0x1fdfffff]
+[Sat Oct 31 03:48:22 2026]  [mem 0x1fc00000-0x1fdfffff] page 2M
+[Sat Oct 31 03:48:22 2026] init_memory_mapping: [mem 0x1c000000-0x1fbfffff]
+[Sat Oct 31 03:48:22 2026]  [mem 0x1c000000-0x1fbfffff] page 2M
+[Sat Oct 31 03:48:22 2026] init_memory_mapping: [mem 0x00100000-0x1bffffff]
+[Sat Oct 31 03:48:22 2026]  [mem 0x00100000-0x001fffff] page 4k
+[Sat Oct 31 03:48:22 2026]  [mem 0x00200000-0x1bffffff] page 2M
+[Sat Oct 31 03:48:22 2026] init_memory_mapping: [mem 0x1fe00000-0x1ffeffff]
+[Sat Oct 31 03:48:22 2026]  [mem 0x1fe00000-0x1ffeffff] page 4k
+[Sat Oct 31 03:48:22 2026] BRK [0x01b13000, 0x01b13fff] PGTABLE
+[Sat Oct 31 03:48:22 2026] RAMDISK: [mem 0x1e95a000-0x1f7abfff]
+[Sat Oct 31 03:48:22 2026] ACPI: Early table checksum verification disabled
+[Sat Oct 31 03:48:22 2026] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+[Sat Oct 31 03:48:22 2026] ACPI: XSDT 0x000000001FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+[Sat Oct 31 03:48:22 2026] ACPI: FACP 0x000000001FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+[Sat Oct 31 03:48:22 2026] ACPI: DSDT 0x000000001FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+[Sat Oct 31 03:48:22 2026] ACPI: FACS 0x000000001FFF0200 000040
+[Sat Oct 31 03:48:22 2026] ACPI: FACS 0x000000001FFF0200 000040
+[Sat Oct 31 03:48:22 2026] ACPI: APIC 0x000000001FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+[Sat Oct 31 03:48:22 2026] ACPI: SSDT 0x000000001FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+[Sat Oct 31 03:48:22 2026] ACPI: Local APIC address 0xfee00000
+[Sat Oct 31 03:48:22 2026] No NUMA configuration found
+[Sat Oct 31 03:48:22 2026] Faking a node at [mem 0x0000000000000000-0x000000001ffeffff]
+[Sat Oct 31 03:48:22 2026] Initmem setup node 0 [mem 0x00000000-0x1ffeffff]
+[Sat Oct 31 03:48:22 2026]   NODE_DATA [mem 0x1ffeb000-0x1ffeffff]
+[Sat Oct 31 03:48:22 2026] kvm-clock: Using msrs 4b564d01 and 4b564d00
+[Sat Oct 31 03:48:22 2026] kvm-clock: cpu 0, msr 0:1ffe3001, primary cpu clock
+[Sat Oct 31 03:48:22 2026]  [ffffea0000000000-ffffea00007fffff] PMD -> [ffff88001e000000-ffff88001e7fffff] on node 0
+[Sat Oct 31 03:48:22 2026] Zone ranges:
+[Sat Oct 31 03:48:22 2026]   DMA      [mem 0x00001000-0x00ffffff]
+[Sat Oct 31 03:48:22 2026]   DMA32    [mem 0x01000000-0xffffffff]
+[Sat Oct 31 03:48:22 2026]   Normal   empty
+[Sat Oct 31 03:48:22 2026] Movable zone start for each node
+[Sat Oct 31 03:48:22 2026] Early memory node ranges
+[Sat Oct 31 03:48:22 2026]   node   0: [mem 0x00001000-0x0009efff]
+[Sat Oct 31 03:48:22 2026]   node   0: [mem 0x00100000-0x1ffeffff]
+[Sat Oct 31 03:48:22 2026] On node 0 totalpages: 130958
+[Sat Oct 31 03:48:22 2026]   DMA zone: 56 pages used for memmap
+[Sat Oct 31 03:48:22 2026]   DMA zone: 21 pages reserved
+[Sat Oct 31 03:48:22 2026]   DMA zone: 3998 pages, LIFO batch:0
+[Sat Oct 31 03:48:22 2026]   DMA32 zone: 1736 pages used for memmap
+[Sat Oct 31 03:48:22 2026]   DMA32 zone: 126960 pages, LIFO batch:31
+[Sat Oct 31 03:48:22 2026] ACPI: PM-Timer IO Port: 0x4008
+[Sat Oct 31 03:48:22 2026] ACPI: Local APIC address 0xfee00000
+[Sat Oct 31 03:48:22 2026] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[Sat Oct 31 03:48:22 2026] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+[Sat Oct 31 03:48:22 2026] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+[Sat Oct 31 03:48:22 2026] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[Sat Oct 31 03:48:22 2026] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[Sat Oct 31 03:48:22 2026] ACPI: IRQ0 used by override.
+[Sat Oct 31 03:48:22 2026] ACPI: IRQ2 used by override.
+[Sat Oct 31 03:48:22 2026] ACPI: IRQ9 used by override.
+[Sat Oct 31 03:48:22 2026] Using ACPI (MADT) for SMP configuration information
+[Sat Oct 31 03:48:22 2026] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+[Sat Oct 31 03:48:22 2026] nr_irqs_gsi: 40
+[Sat Oct 31 03:48:22 2026] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[Sat Oct 31 03:48:22 2026] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+[Sat Oct 31 03:48:22 2026] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+[Sat Oct 31 03:48:22 2026] e820: [mem 0x20000000-0xfebfffff] available for PCI devices
+[Sat Oct 31 03:48:22 2026] Booting paravirtualized kernel on KVM
+[Sat Oct 31 03:48:22 2026] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+[Sat Oct 31 03:48:22 2026] PERCPU: Embedded 28 pages/cpu @ffff88001fc00000 s85184 r8192 d21312 u2097152
+[Sat Oct 31 03:48:22 2026] pcpu-alloc: s85184 r8192 d21312 u2097152 alloc=1*2097152
+[Sat Oct 31 03:48:22 2026] pcpu-alloc: [0] 0 
+[Sat Oct 31 03:48:22 2026] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129145
+[Sat Oct 31 03:48:22 2026] Policy zone: DMA32
+[Sat Oct 31 03:48:22 2026] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-6-amd64 root=UUID=ec19ac44-03d3-467b-b1c4-92a2749f99e2 ro quiet
+[Sat Oct 31 03:48:22 2026] PID hash table entries: 2048 (order: 2, 16384 bytes)
+[Sat Oct 31 03:48:22 2026] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+[Sat Oct 31 03:48:22 2026] AGP: Checking aperture...
+[Sat Oct 31 03:48:22 2026] AGP: No AGP bridge found
+[Sat Oct 31 03:48:22 2026] Calgary: detecting Calgary via BIOS EBDA area
+[Sat Oct 31 03:48:22 2026] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[Sat Oct 31 03:48:22 2026] Memory: 489140K/523832K available (5376K kernel code, 1019K rwdata, 1852K rodata, 1236K init, 848K bss, 34692K reserved)
+[Sat Oct 31 03:48:22 2026] Hierarchical RCU implementation.
+[Sat Oct 31 03:48:22 2026] 	RCU dyntick-idle grace-period acceleration is enabled.
+[Sat Oct 31 03:48:22 2026] 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+[Sat Oct 31 03:48:22 2026] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+[Sat Oct 31 03:48:22 2026] NR_IRQS:33024 nr_irqs:256 16
+[Sat Oct 31 03:48:22 2026] Console: colour VGA+ 80x25
+[Sat Oct 31 03:48:22 2026] console [tty0] enabled
+[Sat Oct 31 03:48:22 2026] tsc: Detected 3194.004 MHz processor
+[Sat Oct 31 03:48:26 2026] Calibrating delay loop (skipped) preset value.. 6388.00 BogoMIPS (lpj=12776016)
+[Sat Oct 31 03:48:26 2026] pid_max: default: 32768 minimum: 301
+[Sat Oct 31 03:48:26 2026] ACPI: Core revision 20140424
+[Sat Oct 31 03:48:26 2026] ACPI: All ACPI Tables successfully acquired
+[Sat Oct 31 03:48:26 2026] Security Framework initialized
+[Sat Oct 31 03:48:26 2026] AppArmor: AppArmor disabled by boot time parameter
+[Sat Oct 31 03:48:26 2026] Yama: disabled by default; enable with sysctl kernel.yama.*
+[Sat Oct 31 03:48:26 2026] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
+[Sat Oct 31 03:48:26 2026] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)
+[Sat Oct 31 03:48:26 2026] Mount-cache hash table entries: 1024 (order: 1, 8192 bytes)
+[Sat Oct 31 03:48:26 2026] Mountpoint-cache hash table entries: 1024 (order: 1, 8192 bytes)
+[Sat Oct 31 03:48:26 2026] Initializing cgroup subsys memory
+[Sat Oct 31 03:48:26 2026] Initializing cgroup subsys devices
+[Sat Oct 31 03:48:26 2026] Initializing cgroup subsys freezer
+[Sat Oct 31 03:48:26 2026] Initializing cgroup subsys net_cls
+[Sat Oct 31 03:48:26 2026] Initializing cgroup subsys blkio
+[Sat Oct 31 03:48:26 2026] Initializing cgroup subsys perf_event
+[Sat Oct 31 03:48:26 2026] Initializing cgroup subsys net_prio
+[Sat Oct 31 03:48:26 2026] tseg: 0000000000
+[Sat Oct 31 03:48:26 2026] CPU0: Hyper-Threading is disabled
+[Sat Oct 31 03:48:26 2026] mce: CPU supports 0 MCE banks
+[Sat Oct 31 03:48:26 2026] Last level iTLB entries: 4KB 512, 2MB 512, 4MB 256
+Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+[Sat Oct 31 03:48:26 2026] Spectre V2 : LFENCE not serializing. Switching to generic retpoline
+[Sat Oct 31 03:48:26 2026] Spectre V2 : Mitigation: Full generic retpoline
+[Sat Oct 31 03:48:26 2026] Spectre V2 : Filling RSB on context switch
+[Sat Oct 31 03:48:26 2026] Freeing SMP alternatives memory: 20K (ffffffff81a35000 - ffffffff81a3a000)
+[Sat Oct 31 03:48:26 2026] ftrace: allocating 21794 entries in 86 pages
+[Sat Oct 31 03:48:26 2026] Enabling x2apic
+[Sat Oct 31 03:48:26 2026] Enabled x2apic
+[Sat Oct 31 03:48:26 2026] Switched APIC routing to physical x2apic.
+[Sat Oct 31 03:48:26 2026] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[Sat Oct 31 03:48:26 2026] smpboot: CPU0: AMD Ryzen 7 6800HS with Radeon Graphics (fam: 19, model: 44, stepping: 01)
+[Sat Oct 31 03:48:26 2026] APIC calibration not consistent with PM-Timer: 114ms instead of 100ms
+[Sat Oct 31 03:48:26 2026] APIC delta adjusted to PM-Timer: 6289317 (7222628)
+[Sat Oct 31 03:48:26 2026] Performance Events: Broken PMU hardware detected, using software events only.
+[Sat Oct 31 03:48:26 2026] Failed to access perfctr msr (MSR c0010004 is 0)
+[Sat Oct 31 03:48:26 2026] x86: Booted up 1 node, 1 CPUs
+[Sat Oct 31 03:48:26 2026] smpboot: Total of 1 processors activated (6388.00 BogoMIPS)
+[Sat Oct 31 03:48:26 2026] NMI watchdog: disabled (cpu0): hardware events not enabled
+[Sat Oct 31 03:48:26 2026] devtmpfs: initialized
+[Sat Oct 31 03:48:26 2026] futex hash table entries: 256 (order: 2, 16384 bytes)
+[Sat Oct 31 03:48:26 2026] pinctrl core: initialized pinctrl subsystem
+[Sat Oct 31 03:48:26 2026] NET: Registered protocol family 16
+[Sat Oct 31 03:48:26 2026] cpuidle: using governor ladder
+[Sat Oct 31 03:48:26 2026] cpuidle: using governor menu
+[Sat Oct 31 03:48:26 2026] ACPI: bus type PCI registered
+[Sat Oct 31 03:48:26 2026] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[Sat Oct 31 03:48:26 2026] PCI: Using configuration type 1 for base access
+[Sat Oct 31 03:48:26 2026] PCI: Using configuration type 1 for extended access
+[Sat Oct 31 03:48:26 2026] ACPI: Added _OSI(Module Device)
+[Sat Oct 31 03:48:26 2026] ACPI: Added _OSI(Processor Device)
+[Sat Oct 31 03:48:26 2026] ACPI: Added _OSI(3.0 _SCP Extensions)
+[Sat Oct 31 03:48:26 2026] ACPI: Added _OSI(Processor Aggregator Device)
+[Sat Oct 31 03:48:26 2026] ACPI: Executed 1 blocks of module-level executable AML code
+[Sat Oct 31 03:48:26 2026] ACPI: Interpreter enabled
+[Sat Oct 31 03:48:26 2026] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20140424/hwxface-580)
+[Sat Oct 31 03:48:26 2026] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+[Sat Oct 31 03:48:26 2026] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S3_] (20140424/hwxface-580)
+[Sat Oct 31 03:48:26 2026] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S4_] (20140424/hwxface-580)
+[Sat Oct 31 03:48:26 2026] ACPI: (supports S0 S5)
+[Sat Oct 31 03:48:26 2026] ACPI: Using IOAPIC for interrupt routing
+[Sat Oct 31 03:48:26 2026] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[Sat Oct 31 03:48:26 2026] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[Sat Oct 31 03:48:26 2026] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+[Sat Oct 31 03:48:26 2026] acpi PNP0A03:00: _OSC: platform does not support [PCIeCapability]
+[Sat Oct 31 03:48:26 2026] acpi PNP0A03:00: _OSC: not requesting control; platform does not support [PCIeCapability]
+[Sat Oct 31 03:48:26 2026] acpi PNP0A03:00: _OSC: OS requested [PCIeHotplug PME AER PCIeCapability]
+[Sat Oct 31 03:48:26 2026] acpi PNP0A03:00: _OSC: platform willing to grant [PCIeHotplug PME AER]
+[Sat Oct 31 03:48:26 2026] acpi PNP0A03:00: _OSC failed (AE_SUPPORT); disabling ASPM
+[Sat Oct 31 03:48:26 2026] PCI host bridge to bus 0000:00
+[Sat Oct 31 03:48:26 2026] pci_bus 0000:00: root bus resource [bus 00-ff]
+[Sat Oct 31 03:48:26 2026] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+[Sat Oct 31 03:48:26 2026] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+[Sat Oct 31 03:48:26 2026] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+[Sat Oct 31 03:48:26 2026] pci_bus 0000:00: root bus resource [mem 0x20000000-0xfdffffff]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+[Sat Oct 31 03:48:26 2026] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+[Sat Oct 31 03:48:26 2026] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+[Sat Oct 31 03:48:26 2026] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+[Sat Oct 31 03:48:26 2026] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+[Sat Oct 31 03:48:26 2026] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:04.0: reg 0x14: [mem 0xf0000000-0xf03fffff]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:04.0: reg 0x18: [mem 0xf0400000-0xf0403fff pref]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+[Sat Oct 31 03:48:26 2026] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+[Sat Oct 31 03:48:26 2026] pci 0000:00:06.0: reg 0x10: [mem 0xf0404000-0xf0404fff]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+[Sat Oct 31 03:48:26 2026] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+[Sat Oct 31 03:48:26 2026] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+[Sat Oct 31 03:48:26 2026] pci 0000:00:11.0: [8086:100f] type 00 class 0x020000
+[Sat Oct 31 03:48:26 2026] pci 0000:00:11.0: reg 0x10: [mem 0xf0420000-0xf043ffff]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:11.0: reg 0x18: [io  0xd240-0xd247]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:14.0: [1000:0030] type 00 class 0x010000
+[Sat Oct 31 03:48:26 2026] pci 0000:00:14.0: reg 0x10: [io  0xd300-0xd3ff]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:14.0: reg 0x14: [mem 0xf0440000-0xf045ffff]
+[Sat Oct 31 03:48:26 2026] pci 0000:00:14.0: reg 0x18: [mem 0xf0460000-0xf047ffff]
+[Sat Oct 31 03:48:26 2026] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+[Sat Oct 31 03:48:26 2026] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+[Sat Oct 31 03:48:26 2026] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+[Sat Oct 31 03:48:26 2026] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+[Sat Oct 31 03:48:26 2026] ACPI: Enabled 2 GPEs in block 00 to 07
+[Sat Oct 31 03:48:26 2026] vgaarb: setting as boot device: PCI:0000:00:02.0
+[Sat Oct 31 03:48:26 2026] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+[Sat Oct 31 03:48:26 2026] vgaarb: loaded
+[Sat Oct 31 03:48:26 2026] vgaarb: bridge control possible 0000:00:02.0
+[Sat Oct 31 03:48:26 2026] PCI: Using ACPI for IRQ routing
+[Sat Oct 31 03:48:26 2026] PCI: pci_cache_line_size set to 64 bytes
+[Sat Oct 31 03:48:26 2026] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+[Sat Oct 31 03:48:26 2026] e820: reserve RAM buffer [mem 0x1fff0000-0x1fffffff]
+[Sat Oct 31 03:48:26 2026] amd_nb: Cannot enumerate AMD northbridges
+[Sat Oct 31 03:48:26 2026] Switched to clocksource kvm-clock
+[Sat Oct 31 03:48:27 2026] pnp: PnP ACPI init
+[Sat Oct 31 03:48:27 2026] ACPI: bus type PNP registered
+[Sat Oct 31 03:48:27 2026] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+[Sat Oct 31 03:48:27 2026] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+[Sat Oct 31 03:48:27 2026] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+[Sat Oct 31 03:48:27 2026] pnp: PnP ACPI: found 3 devices
+[Sat Oct 31 03:48:27 2026] ACPI: bus type PNP unregistered
+[Sat Oct 31 03:48:27 2026] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+[Sat Oct 31 03:48:27 2026] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+[Sat Oct 31 03:48:27 2026] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+[Sat Oct 31 03:48:27 2026] pci_bus 0000:00: resource 7 [mem 0x20000000-0xfdffffff]
+[Sat Oct 31 03:48:27 2026] NET: Registered protocol family 2
+[Sat Oct 31 03:48:27 2026] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+[Sat Oct 31 03:48:27 2026] TCP bind hash table entries: 4096 (order: 4, 65536 bytes)
+[Sat Oct 31 03:48:27 2026] TCP: Hash tables configured (established 4096 bind 4096)
+[Sat Oct 31 03:48:27 2026] TCP: reno registered
+[Sat Oct 31 03:48:27 2026] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[Sat Oct 31 03:48:27 2026] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[Sat Oct 31 03:48:27 2026] NET: Registered protocol family 1
+[Sat Oct 31 03:48:27 2026] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[Sat Oct 31 03:48:27 2026] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+[Sat Oct 31 03:48:27 2026] pci 0000:00:02.0: Video device with shadowed ROM
+[Sat Oct 31 03:48:27 2026] PCI: CLS 0 bytes, default 64
+[Sat Oct 31 03:48:27 2026] Unpacking initramfs...
+[Sat Oct 31 03:48:27 2026] Freeing initrd memory: 14664K (ffff88001e95a000 - ffff88001f7ac000)
+[Sat Oct 31 03:48:27 2026] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[Sat Oct 31 03:48:27 2026] audit: initializing netlink subsys (disabled)
+[Sat Oct 31 03:48:27 2026] audit: type=2000 audit(1793371708.458:1): initialized
+[Sat Oct 31 03:48:27 2026] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[Sat Oct 31 03:48:27 2026] zbud: loaded
+[Sat Oct 31 03:48:27 2026] VFS: Disk quotas dquot_6.5.2
+[Sat Oct 31 03:48:27 2026] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[Sat Oct 31 03:48:27 2026] msgmni has been set to 984
+[Sat Oct 31 03:48:27 2026] alg: No test for stdrng (krng)
+[Sat Oct 31 03:48:27 2026] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[Sat Oct 31 03:48:27 2026] io scheduler noop registered
+[Sat Oct 31 03:48:27 2026] io scheduler deadline registered
+[Sat Oct 31 03:48:27 2026] io scheduler cfq registered (default)
+[Sat Oct 31 03:48:27 2026] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[Sat Oct 31 03:48:27 2026] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[Sat Oct 31 03:48:27 2026] GHES: HEST is not enabled!
+[Sat Oct 31 03:48:27 2026] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[Sat Oct 31 03:48:27 2026] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[Sat Oct 31 03:48:27 2026] Linux agpgart interface v0.103
+[Sat Oct 31 03:48:27 2026] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[Sat Oct 31 03:48:27 2026] serio: i8042 KBD port at 0x60,0x64 irq 1
+[Sat Oct 31 03:48:27 2026] serio: i8042 AUX port at 0x60,0x64 irq 12
+[Sat Oct 31 03:48:27 2026] mousedev: PS/2 mouse device common for all mice
+[Sat Oct 31 03:48:27 2026] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+[Sat Oct 31 03:48:27 2026] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+[Sat Oct 31 03:48:27 2026] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+[Sat Oct 31 03:48:27 2026] ledtrig-cpu: registered to indicate activity on CPUs
+[Sat Oct 31 03:48:27 2026] AMD IOMMUv2 driver by Joerg Roedel <joerg.roedel@amd.com>
+[Sat Oct 31 03:48:27 2026] AMD IOMMUv2 functionality not available on this system
+[Sat Oct 31 03:48:27 2026] TCP: cubic registered
+[Sat Oct 31 03:48:27 2026] NET: Registered protocol family 10
+[Sat Oct 31 03:48:27 2026] mip6: Mobile IPv6
+[Sat Oct 31 03:48:27 2026] NET: Registered protocol family 17
+[Sat Oct 31 03:48:27 2026] mpls_gso: MPLS GSO support
+[Sat Oct 31 03:48:27 2026] registered taskstats version 1
+[Sat Oct 31 03:48:27 2026] rtc_cmos rtc_cmos: setting system clock to 2026-10-30 16:48:22 UTC (1793378902)
+[Sat Oct 31 03:48:27 2026] PM: Hibernation image not present or could not be loaded.
+[Sat Oct 31 03:48:27 2026] Freeing unused kernel memory: 1236K (ffffffff81900000 - ffffffff81a35000)
+[Sat Oct 31 03:48:27 2026] Write protecting the kernel read-only data: 8192k
+[Sat Oct 31 03:48:27 2026] Freeing unused kernel memory: 756K (ffff880001543000 - ffff880001600000)
+[Sat Oct 31 03:48:27 2026] Freeing unused kernel memory: 196K (ffff8800017cf000 - ffff880001800000)
+[Sat Oct 31 03:48:27 2026] systemd-udevd[53]: starting version 215
+[Sat Oct 31 03:48:27 2026] random: systemd-udevd: uninitialized urandom read (16 bytes read, 33 bits of entropy available)
+[Sat Oct 31 03:48:27 2026] SCSI subsystem initialized
+[Sat Oct 31 03:48:27 2026] ACPI: bus type USB registered
+[Sat Oct 31 03:48:27 2026] usbcore: registered new interface driver usbfs
+[Sat Oct 31 03:48:27 2026] usbcore: registered new interface driver hub
+[Sat Oct 31 03:48:27 2026] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+[Sat Oct 31 03:48:27 2026] usbcore: registered new device driver usb
+[Sat Oct 31 03:48:27 2026] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[Sat Oct 31 03:48:27 2026] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[Sat Oct 31 03:48:27 2026] ehci-pci: EHCI PCI platform driver
+[Sat Oct 31 03:48:27 2026] ohci-pci: OHCI PCI platform driver
+[Sat Oct 31 03:48:27 2026] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[Sat Oct 31 03:48:27 2026] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[Sat Oct 31 03:48:27 2026] Fusion MPT base driver 3.04.20
+[Sat Oct 31 03:48:27 2026] Copyright (c) 1999-2008 LSI Corporation
+[Sat Oct 31 03:48:27 2026] Fusion MPT SPI Host driver 3.04.20
+[Sat Oct 31 03:48:27 2026] ohci-pci 0000:00:06.0: OHCI PCI host controller
+[Sat Oct 31 03:48:27 2026] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+[Sat Oct 31 03:48:27 2026] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0404000
+[Sat Oct 31 03:48:27 2026] libata version 3.00 loaded.
+[Sat Oct 31 03:48:27 2026] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+[Sat Oct 31 03:48:27 2026] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sat Oct 31 03:48:27 2026] usb usb1: Product: OHCI PCI host controller
+[Sat Oct 31 03:48:27 2026] usb usb1: Manufacturer: Linux 3.16.0-6-amd64 ohci_hcd
+[Sat Oct 31 03:48:27 2026] usb usb1: SerialNumber: 0000:00:06.0
+[Sat Oct 31 03:48:27 2026] hub 1-0:1.0: USB hub found
+[Sat Oct 31 03:48:27 2026] hub 1-0:1.0: 12 ports detected
+[Sat Oct 31 03:48:27 2026] psmouse serio1: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+[Sat Oct 31 03:48:27 2026] random: nonblocking pool is initialized
+[Sat Oct 31 03:48:27 2026] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input2
+[Sat Oct 31 03:48:27 2026] e1000 0000:00:11.0 eth0: (PCI:33MHz:32-bit) 08:00:27:88:12:23
+[Sat Oct 31 03:48:27 2026] e1000 0000:00:11.0 eth0: Intel(R) PRO/1000 Network Connection
+[Sat Oct 31 03:48:27 2026] mptbase: ioc0: Initiating bringup
+[Sat Oct 31 03:48:27 2026] ioc0: LSI53C1030 A0: Capabilities={Initiator}
+[Sat Oct 31 03:48:28 2026] scsi0 : ioc0: LSI53C1030 A0, FwRev=00000000h, Ports=1, MaxQ=256, IRQ=20
+[Sat Oct 31 03:48:28 2026] ata_piix 0000:00:01.1: version 2.13
+[Sat Oct 31 03:48:28 2026] scsi 0:0:0:0: Direct-Access     VBOX     HARDDISK         1.0  PQ: 0 ANSI: 5
+[Sat Oct 31 03:48:28 2026] scsi target0:0:0: Beginning Domain Validation
+[Sat Oct 31 03:48:28 2026] scsi1 : ata_piix
+[Sat Oct 31 03:48:28 2026] scsi2 : ata_piix
+[Sat Oct 31 03:48:28 2026] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+[Sat Oct 31 03:48:28 2026] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+[Sat Oct 31 03:48:28 2026] scsi target0:0:0: Domain Validation skipping write tests
+[Sat Oct 31 03:48:28 2026] scsi target0:0:0: Ending Domain Validation
+[Sat Oct 31 03:48:28 2026] scsi target0:0:0: asynchronous
+[Sat Oct 31 03:48:28 2026] sd 0:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+[Sat Oct 31 03:48:28 2026] sd 0:0:0:0: [sda] Write Protect is off
+[Sat Oct 31 03:48:28 2026] sd 0:0:0:0: [sda] Mode Sense: 04 00 10 00
+[Sat Oct 31 03:48:28 2026] sd 0:0:0:0: [sda] Incomplete mode parameter data
+[Sat Oct 31 03:48:28 2026] sd 0:0:0:0: [sda] Assuming drive cache: write through
+[Sat Oct 31 03:48:28 2026]  sda: sda1 sda2 < sda5 >
+[Sat Oct 31 03:48:28 2026] sd 0:0:0:0: [sda] Attached SCSI disk
+[Sat Oct 31 03:48:28 2026] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Sat Oct 31 03:48:28 2026] tsc: Refined TSC clocksource calibration: 3191.195 MHz
+[Sat Oct 31 03:48:30 2026] floppy0: no floppy controllers found
+[Sat Oct 31 03:48:30 2026] work still pending
+[Sat Oct 31 03:48:30 2026] PM: Starting manual resume from disk
+[Sat Oct 31 03:48:30 2026] PM: Hibernation image partition 8:5 present
+[Sat Oct 31 03:48:30 2026] PM: Looking for hibernation image.
+[Sat Oct 31 03:48:30 2026] PM: Image not found (code -22)
+[Sat Oct 31 03:48:30 2026] PM: Hibernation image not present or could not be loaded.
+[Sat Oct 31 03:48:30 2026] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[Sat Oct 31 03:48:30 2026] systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)
+[Sat Oct 31 03:48:30 2026] systemd[1]: Detected virtualization 'kvm'.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Detected architecture 'x86-64'.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Inserted module 'autofs4'
+[Sat Oct 31 03:48:30 2026] systemd[1]: Set hostname to <Raven>.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Cannot add dependency job for unit display-manager.service, ignoring: Unit display-manager.service failed to load: No such file or directory.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Remote File Systems (Pre).
+[Sat Oct 31 03:48:30 2026] systemd[1]: Reached target Remote File Systems (Pre).
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Encrypted Volumes.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Reached target Encrypted Volumes.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Expecting device dev-disk-by\x2duuid-a32142f4\x2d45e8\x2d400e\x2dbaf5\x2d5acb5fea65f5.device...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Root Slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Created slice Root Slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting User and Session Slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Created slice User and Session Slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Delayed Shutdown Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Listening on Delayed Shutdown Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Journal Socket (/dev/log).
+[Sat Oct 31 03:48:30 2026] systemd[1]: Listening on Journal Socket (/dev/log).
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting udev Control Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Listening on udev Control Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting udev Kernel Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Listening on udev Kernel Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Journal Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Listening on Journal Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting System Slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Created slice System Slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Started File System Check on Root Device.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting system-getty.slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Created slice system-getty.slice.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Increase datagram queue length...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Mounting Debug File System...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Load Kernel Modules...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting udev Coldplug all Devices...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Mounting Huge Pages File System...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Started Set Up Additional Binary Formats.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Mounting POSIX Message Queue File System...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Slices.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Reached target Slices.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Started Increase datagram queue length.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Mounted Debug File System.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Mounted Huge Pages File System.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Mounted POSIX Message Queue File System.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Syslog Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Listening on Syslog Socket.
+[Sat Oct 31 03:48:30 2026] systemd[1]: Starting Journal Service...
+[Sat Oct 31 03:48:30 2026] systemd[1]: Started Journal Service.
+[Sat Oct 31 03:48:30 2026] systemd-udevd[148]: starting version 215
+[Sat Oct 31 03:48:30 2026] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[Sat Oct 31 03:48:30 2026] ACPI: Power Button [PWRF]
+[Sat Oct 31 03:48:30 2026] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4
+[Sat Oct 31 03:48:30 2026] ACPI: Sleep Button [SLPF]
+[Sat Oct 31 03:48:30 2026] ACPI: Battery Slot [BAT0] (battery present)
+[Sat Oct 31 03:48:30 2026] ACPI: AC Adapter [AC] (on-line)
+[Sat Oct 31 03:48:30 2026] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[Sat Oct 31 03:48:30 2026] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5
+[Sat Oct 31 03:48:30 2026] input: PC Speaker as /devices/platform/pcspkr/input/input6
+[Sat Oct 31 03:48:30 2026] AVX2 version of gcm_enc/dec engaged.
+[Sat Oct 31 03:48:30 2026] alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+[Sat Oct 31 03:48:30 2026] ppdev: user-space parallel port driver
+[Sat Oct 31 03:48:30 2026] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+[Sat Oct 31 03:48:30 2026] alg: No test for crc32 (crc32-pclmul)
+[Sat Oct 31 03:48:30 2026] Adding 901116k swap on /dev/sda5.  Priority:-1 extents:1 across:901116k FS
+[Sat Oct 31 03:48:30 2026] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+[Sat Oct 31 03:48:30 2026] systemd-journald[138]: Received request to flush runtime journal from PID 1
+[Sat Oct 31 03:48:31 2026] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 55035 usecs (2160 samples)
+[Sat Oct 31 03:48:31 2026] snd_intel8x0 0000:00:05.0: measured clock 39247 rejected
+[Sat Oct 31 03:48:31 2026] snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 56133 usecs (2640 samples)
+[Sat Oct 31 03:48:31 2026] snd_intel8x0 0000:00:05.0: clocking to 48988
+[Sat Oct 31 03:48:33 2026] floppy0: no floppy controllers found
+[Sat Oct 31 03:48:33 2026] work still pending
+[Sat Oct 31 03:48:33 2026] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[Sat Oct 31 03:48:33 2026] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[Sat Oct 31 03:48:33 2026] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[Sat Oct 31 03:48:33 2026] RPC: Registered named UNIX socket transport module.
+[Sat Oct 31 03:48:33 2026] RPC: Registered udp transport module.
+[Sat Oct 31 03:48:33 2026] RPC: Registered tcp transport module.
+[Sat Oct 31 03:48:33 2026] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[Sat Oct 31 03:48:34 2026] FS-Cache: Loaded
+[Sat Oct 31 03:48:34 2026] FS-Cache: Netfs 'nfs' registered for caching
+[Sat Oct 31 03:48:34 2026] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
